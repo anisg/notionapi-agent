@@ -31,4 +31,7 @@ export interface Breadcrumb extends EmptyBlock {
 }
 
 export type AdvancedBlockUnion =
-  TableOfContents | Equation | Factory | Breadcrumb
+  | TableOfContents
+  | Equation
+  | Factory
+  | Breadcrumb

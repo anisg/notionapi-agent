@@ -7,7 +7,7 @@ import { EmptyBlock } from "./empty_block"
 export interface Image extends EmptyBlock {
   type: "image"
   properties?: {
-    /** 
+    /**
      * Normally, the same as `display_source` in {@link BlockFormat}.
      * When they are different, use `display_source`.
      */
@@ -24,7 +24,7 @@ export interface Image extends EmptyBlock {
 export interface Video extends EmptyBlock {
   type: "video"
   properties?: {
-    /** 
+    /**
      * Normally, the same as `display_source` in {@link BlockFormat}.
      * When they are different, use `display_source`.
      */

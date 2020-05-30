@@ -12,8 +12,18 @@ import { SlackIntegration } from "./slack_integration"
 import { Permission } from "./permission"
 
 export {
-  Block, Collection, CollectionView, NotionUser, UserRoot, UserSettings,
-  Space, SpaceView, Activity, Follow, SlackIntegration, Permission
+  Block,
+  Collection,
+  CollectionView,
+  NotionUser,
+  UserRoot,
+  UserSettings,
+  Space,
+  SpaceView,
+  Activity,
+  Follow,
+  SlackIntegration,
+  Permission,
 }
 
 export * from "./util"

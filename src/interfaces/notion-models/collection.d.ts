@@ -17,27 +17,48 @@ export interface Collection {
 }
 
 export namespace Collection {
-
   /**
-   * Also used in {@link CollectionView.TableProperty}, 
-   * {@link CollectionView.GalleryProperty}, 
+   * Also used in {@link CollectionView.TableProperty},
+   * {@link CollectionView.GalleryProperty},
    * {@link Aggregate}, {@link Filter}, {@link Query}, and {@link Sort}.
-   * 
+   *
    * `title` when {@link ColumnPropertyType} is `title`.
-   * 
+   *
    * Otherwise, a 4-ASCII-character string. e.g. `%7_Z`.
    */
   export type ColumnID = string
 
   export type ColumnPropertyType =
-    "title" | "text" | "number" | "select" | "multi_select" | "date"
-    | "person" | "file" | "checkbox" | "url" | "email" | "phone_number"
-    | "formula" | "relation" | "created_time" | "created_by"
-    | "last_edited_time" | "last_edited_by"
+    | "title"
+    | "text"
+    | "number"
+    | "select"
+    | "multi_select"
+    | "date"
+    | "person"
+    | "file"
+    | "checkbox"
+    | "url"
+    | "email"
+    | "phone_number"
+    | "formula"
+    | "relation"
+    | "created_time"
+    | "created_by"
+    | "last_edited_time"
+    | "last_edited_by"
 
   export type ColumnPropertyOptionColor =
-    "default" | "gray" | "brown" | "orange" | "yellow" | "green" | "blue"
-    | "purple" | "pink" | "red"
+    | "default"
+    | "gray"
+    | "brown"
+    | "orange"
+    | "yellow"
+    | "green"
+    | "blue"
+    | "purple"
+    | "pink"
+    | "red"
 
   export interface ColumnPropertyOption {
     id: Util.UUID
@@ -58,7 +79,7 @@ export namespace Collection {
   export interface Format {
     collection_cover_position?: number
     /**
-     * TODO: Not sure if {@link CollectionView.TableProperty} 
+     * TODO: Not sure if {@link CollectionView.TableProperty}
      * is also possible.
      */
     collection_page_properties?: CollectionView.GalleryProperty[]
@@ -67,5 +88,4 @@ export namespace Collection {
   export type Schema = {
     [key in ColumnID]: ColumnProperty
   }
-
 }

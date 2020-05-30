@@ -1,16 +1,15 @@
 import { Util } from "../../"
 
 export namespace SubmitTransaction {
-
   /**
    * TODO: Researching.
-   * 
+   *
    * ## Examples
-   * 
+   *
    * ### Add a new block
-   * 
+   *
    * Create a block.
-   * 
+   *
    * ```
    * {
    *   id: "<generate_one>",
@@ -31,9 +30,9 @@ export namespace SubmitTransaction {
    *   }
    * }
    * ```
-   * 
+   *
    * Place it somewhere.
-   * 
+   *
    * ```
    * {
    *   id: "<parent_id>",
@@ -46,11 +45,11 @@ export namespace SubmitTransaction {
    *   }
    * }
    * ```
-   * 
+   *
    * ### Soft-Delete a block
-   * 
+   *
    * First set the block to `{ alive: false }`.
-   * 
+   *
    * ```
    * {
    *   id: "<block_id>",
@@ -60,9 +59,9 @@ export namespace SubmitTransaction {
    *   args: { alive: false }
    * }
    * ```
-   * 
+   *
    * Then, remove it from its parent.
-   * 
+   *
    * ```
    * {
    *   id: "<parent_block_id>",
@@ -74,13 +73,13 @@ export namespace SubmitTransaction {
    *   }
    * }
    * ```
-   * 
+   *
    * Finally, Update its and its parent's `last_edited_time`.
-   * 
+   *
    * ### Move a block
-   * 
-   * Soft-Delete a block → Update its parent and set `{ alive: true }` → 
-   * Place it after another block → Update its and its parent's 
+   *
+   * Soft-Delete a block → Update its parent and set `{ alive: true }` →
+   * Place it after another block → Update its and its parent's
    * `last_edited_time`.
    */
   interface Operation {
@@ -88,25 +87,25 @@ export namespace SubmitTransaction {
     id: Util.UUID
     table: Util.Table
     /**
-     * An object key path relative to the record. For example, to change 
-     * the title of a {@link Page}, since the title is stored in 
-     * "{@link Page}.properties.title", we need to specify 
+     * An object key path relative to the record. For example, to change
+     * the title of a {@link Page}, since the title is stored in
+     * "{@link Page}.properties.title", we need to specify
      * `["properties", "title"]` here.
      */
     path: string[]
     /**
      * TODO: Incomplete
-     * 
-     * Guess: Use "set" with a `path` to set a property, and use "update" 
-     * without `path` to set more than one properties, so are they 
+     *
+     * Guess: Use "set" with a `path` to set a property, and use "update"
+     * without `path` to set more than one properties, so are they
      * interchangeable in general ?
      */
     command: "set" | "update" | "listAfter" | "listRemove"
     /**
      * The arguments of this operation. Type varies with operation.
-     * 
+     *
      * Examples :
-     * 
+     *
      * Set page title — {@link SemanticString}*[]*<br>
      * Set page icon — *string* : an URL or an emoji<br>
      * Set last edited time — *number*<br>
@@ -130,6 +129,5 @@ export namespace SubmitTransaction {
   /**
    * An empty object.
    */
-  interface Response { }
-
+  interface Response {}
 }

@@ -1,0 +1,4188 @@
+---
+results:
+- id: e815ddde-ed2f-4f26-ad34-623187014228
+  isNavigable: false
+  score: 1
+- id: ed9db2da-ef94-4d13-adc2-d29a3ececfe0
+  isNavigable: false
+  score: 1
+- id: 3bb26d4b-2eb1-4801-8acf-8204e50c702c
+  isNavigable: false
+  score: 1
+- id: 3190c6a7-6539-46fa-bbf9-1037d725ab8c
+  isNavigable: false
+  score: 1
+- id: ff2e4c12-34b4-41d7-b313-27b8ebfeb297
+  isNavigable: false
+  score: 1
+- id: 080c4b06-021c-4fce-8948-2def329f1d80
+  isNavigable: false
+  score: 1
+- id: d1c0a8e7-0665-41aa-b475-39202142e3b7
+  isNavigable: false
+  score: 1
+- id: 10d43730-0d68-476e-af3a-39e9033498fd
+  isNavigable: false
+  score: 1
+- id: 190964ff-a717-4873-88cd-7c8310d4027e
+  isNavigable: false
+  score: 1
+- id: 6b1af6bf-7be3-41d8-a2b9-c65511a21115
+  isNavigable: false
+  score: 1
+- id: 721c7d6b-86a4-45b5-9282-a77df2c7c7fe
+  isNavigable: false
+  score: 1
+- id: 771c4b5b-1aab-4410-aaea-c3fc4648c3d0
+  isNavigable: false
+  score: 1
+- id: 7a98d4cd-8c6d-4653-91fc-8cb8a8ba18c2
+  isNavigable: false
+  score: 1
+- id: a5c12e85-dba4-401b-8063-b0194b0d2978
+  isNavigable: false
+  score: 1
+- id: adae104b-9e49-4013-a472-0e7fb67f05cf
+  isNavigable: false
+  score: 1
+- id: d5ecb9ea-1420-4849-bcbc-f861fac50fba
+  isNavigable: false
+  score: 1
+- id: e11cccf7-6c6c-48e5-808a-2127e6d1191d
+  isNavigable: false
+  score: 1
+- id: f0497ab3-fa55-4298-8eaf-c8e96fc10769
+  isNavigable: false
+  score: 1
+- id: f76022ae-8032-4b19-a44c-e319ede6903f
+  isNavigable: false
+  score: 1
+- id: 1a4abfdb-5e92-4066-81d3-0d84a4755b0b
+  isNavigable: false
+  score: 1
+total: 23
+recordMap:
+  collection:
+    e815ddde-ed2f-4f26-ad34-623187014228:
+      role: editor
+      value:
+        id: e815ddde-ed2f-4f26-ad34-623187014228
+        version: 48
+        name:
+        - - "❌ good bad/stuff"
+        schema:
+          "%1@_":
+            name: date
+            type: created_time
+            date_format: relative
+          N@Ye:
+            name: tags
+            type: multi_select
+            options:
+            - id: 8abb9a6c-81c2-4f76-a93c-db7aa8d71eec
+              color: gray
+              value: Competitive programming
+            - id: 9a43db3e-f3df-4046-9275-ab7aa11c7515
+              color: yellow
+              value: Project Management
+            - id: cc66cbc1-2805-4b2b-a2b8-5abb13babe90
+              color: brown
+              value: Consistency
+            - id: a3e961d3-af2c-4601-9353-1f1d00fc91b3
+              color: purple
+              value: productivity
+          "\\US#":
+            name: Feel
+            type: select
+            options:
+            - id: c4062b85-207c-465c-8fcd-24a3d0f2da15
+              color: green
+              value: Good
+            - id: ec4e2490-51e2-40ec-9358-82699e3292df
+              color: red
+              value: Bad
+          title:
+            name: Describe
+            type: title
+        icon: "\U0001F4AF"
+        parent_id: 0a63894e-9a9a-4b80-adc9-45a5ccc70663
+        parent_table: block
+        alive: true
+    ed9db2da-ef94-4d13-adc2-d29a3ececfe0:
+      role: editor
+      value:
+        id: ed9db2da-ef94-4d13-adc2-d29a3ececfe0
+        version: 15
+        name:
+        - - "❌Music"
+        schema:
+          ")OYW":
+            name: Column
+            type: text
+          QOKV:
+            name: youtube
+            type: url
+          title:
+            name: Name
+            type: title
+        parent_id: 2e12e3f9-4f7b-41a1-80a3-68c7113a7991
+        parent_table: block
+        alive: true
+    3bb26d4b-2eb1-4801-8acf-8204e50c702c:
+      role: editor
+      value:
+        id: 3bb26d4b-2eb1-4801-8acf-8204e50c702c
+        version: 17
+        name:
+        - - Habits DB
+        schema:
+          ".8i4":
+            name: frequency
+            type: select
+            options:
+            - id: 889f56b6-cc6c-4ff7-8331-dee7536df004
+              color: brown
+              value: weekly
+            - id: 7963928b-4377-4905-ac1e-4a3e85922218
+              color: red
+              value: daily
+            - id: 83424a69-f2b2-4188-8e68-3c1f836ef5d0
+              color: yellow
+              value: 50% of my meal
+          H/3D:
+            name: goal outcomes
+            type: relation
+            property: 0I*g
+            collection_id: 6b1af6bf-7be3-41d8-a2b9-c65511a21115
+          qSW6:
+            name: tags
+            type: multi_select
+            options:
+            - id: 6abe539d-1f8c-4405-a7d4-4460df1489c0
+              color: brown
+              value: informatics
+            - id: b832f742-b13a-4333-9f03-5edb8def7332
+              color: yellow
+              value: health
+          title:
+            name: Name
+            type: title
+        parent_id: 5d27c5c4-663a-4928-b6b5-c85832198d85
+        parent_table: block
+        alive: true
+    3190c6a7-6539-46fa-bbf9-1037d725ab8c:
+      role: editor
+      value:
+        id: 3190c6a7-6539-46fa-bbf9-1037d725ab8c
+        version: 1
+        name:
+        - - Roadmap
+        description:
+        - - "Use this template to track all of your project work.\n\n⛰ "
+        - - Epics
+          - - - b
+        - - " are large overarching initiatives.\n\U0001F3C3‍♂️ "
+        - - Sprints
+          - - - b
+        - - " are time-bounded pushes to complete a set of tasks.\n\U0001F528 "
+        - - Tasks
+          - - - b
+        - - " are the actions that make up epics.\n\U0001F41E "
+        - - Bugs
+          - - - b
+        - - " are tasks to fix things.\n\n"
+        - - "↓"
+          - - - b
+        - - " Click "
+        - - By Status
+          - - - c
+        - - " to isolate epics, sprints, tasks or bugs. Sort tasks by status, engineer
+            or product manager . Switch to calendar view to see when work is scheduled
+            to be completed."
+        schema:
+          "$v1Q":
+            name: Engineers
+            type: person
+          6=yp:
+            name: Tasks
+            type: relation
+            property: L[K<
+            collection_id: 3190c6a7-6539-46fa-bbf9-1037d725ab8c
+          9dB^:
+            name: Type
+            type: select
+            options:
+            - id: ca62f85e-a4ac-474f-b493-82d2df005dff
+              color: green
+              value: Epic ⛰️
+            - id: 3f806034-9c48-4519-871e-60c9c32d73d8
+              color: yellow
+              value: "Task \U0001F528"
+            - id: 1497e06a-abf3-4c81-a619-debfa0c70621
+              color: red
+              value: "Bug \U0001F41E"
+          Jz.@:
+            name: Sprint
+            type: multi_select
+            options:
+            - id: 8d033c95-5515-4662-b8f3-60cb7d86487a
+              color: default
+              value: Sprint 21
+            - id: bf3fcc55-aefc-43a8-82a0-2d4ac1e74d30
+              color: default
+              value: Sprint 22
+            - id: 7d78a5e4-28ef-4b21-8495-998fa6655014
+              color: default
+              value: Sprint 23
+            - id: 257e46d2-4a27-4298-b8c7-9b9bfb603bbd
+              color: default
+              value: Sprint 20
+            - id: fbdb3f96-7979-4027-a461-aab8abda1ca8
+              color: default
+              value: Sprint 24
+          L[K<:
+            name: Epic
+            type: relation
+            property: 6=yp
+            collection_id: 3190c6a7-6539-46fa-bbf9-1037d725ab8c
+          _G+l:
+            name: Timeline
+            type: date
+          iwS0:
+            name: Created
+            type: created_time
+          ma:W:
+            name: Product Manager
+            type: person
+          "{MEq":
+            name: Priority
+            type: select
+            options:
+            - id: 09fy
+              color: red
+              value: "P1 \U0001F525"
+            - id: e1b2f058-4989-4dee-a873-4e88f58d4d0a
+              color: orange
+              value: P2
+            - id: 0bb46e0b-be4f-4b9c-87c2-b990868e9f92
+              color: yellow
+              value: P3
+            - id: 1a5512c5-39ad-4fb7-959f-68f596849eeb
+              color: green
+              value: P4
+            - id: 28c7cce9-7163-4407-9569-3f070da82ad1
+              color: blue
+              value: P5
+          "|F4-":
+            name: Status
+            type: select
+            options:
+            - id: c224a5a5-c284-431e-a65d-90a71712bcac
+              color: red
+              value: Not Started
+            - id: ab7c2b08-ed87-4c04-b30f-fa62440f75d5
+              color: yellow
+              value: In Progress
+            - id: c410e525-9a47-4ed2-9e72-299abee65575
+              color: green
+              value: "Complete \U0001F64C"
+          title:
+            name: Projects
+            type: title
+        icon: "\U0001F698"
+        format:
+          collection_page_properties:
+          - visible: false
+            property: iwS0
+          - visible: false
+            property: 9dB^
+          - visible: false
+            property: "|F4-"
+          - visible: false
+            property: L[K<
+          - visible: true
+            property: Jz.@
+          - visible: false
+            property: "{MEq"
+          - visible: false
+            property: 6=yp
+          - visible: false
+            property: _G+l
+          - visible: false
+            property: ma:W
+          - visible: false
+            property: "$v1Q"
+        parent_id: db5fd845-220f-457d-a792-0511cef67e0e
+        parent_table: block
+        alive: true
+        copied_from: 1451e2fc-8adf-47c5-b789-a68560ea682a
+        template_pages:
+        - 25f0aa19-c2f5-4527-b4b9-bdec48c52148
+        - 283af54a-e6b9-4d3b-afc9-2347590865b8
+        - 7f0e4e9d-e99c-4f0b-b79b-d878ff06b7c7
+    ff2e4c12-34b4-41d7-b313-27b8ebfeb297:
+      role: editor
+      value:
+        id: ff2e4c12-34b4-41d7-b313-27b8ebfeb297
+        version: 5
+        name:
+        - - Quarter DB
+        schema:
+          W5a\:
+            name: Related to Goal Outcomes DB (quarter)
+            type: relation
+            property: "&4_X"
+            collection_id: 6b1af6bf-7be3-41d8-a2b9-c65511a21115
+          title:
+            name: Name
+            type: title
+        parent_id: 5840db9b-6404-49d5-a20e-1c884025eeb6
+        parent_table: block
+        alive: true
+    080c4b06-021c-4fce-8948-2def329f1d80:
+      role: editor
+      value:
+        id: 080c4b06-021c-4fce-8948-2def329f1d80
+        version: 259
+        name:
+        - - " Projects DB"
+        schema:
+          "\"QA4":
+            name: Bugs
+            type: relation
+            property: "'Tiq"
+            collection_id: f76022ae-8032-4b19-a44c-e319ede6903f
+          "#ACE":
+            name: review date
+            type: date
+          "#nR{":
+            name: Total Actions
+            type: rollup
+            aggregation: count
+            target_property: title
+            relation_property: ie:_
+            target_property_type: title
+          '%"V0':
+            name: Progress
+            type: formula
+            formula:
+              'true':
+                type: constant
+                value: "✅"
+                value_type: string
+                result_type: text
+              type: conditional
+              'false':
+                args:
+                - args:
+                  - args:
+                    - type: constant
+                      value: "▓▓▓▓▓▓▓▓▓▓"
+                      value_type: string
+                      result_type: text
+                    - type: constant
+                      value: '0'
+                      value_type: number
+                      result_type: number
+                    - args:
+                      - args:
+                        - args:
+                          - id: M>sq
+                            name: completed
+                            type: property
+                            result_type: number
+                          - id: t6it
+                            name: Goals
+                            type: property
+                            result_type: number
+                          name: divide
+                          type: operator
+                          operator: "/"
+                          result_type: number
+                        - type: constant
+                          value: '10'
+                          value_type: number
+                          result_type: number
+                        name: multiply
+                        type: operator
+                        operator: "*"
+                        result_type: number
+                      name: floor
+                      type: function
+                      result_type: number
+                    name: slice
+                    type: function
+                    result_type: text
+                  - args:
+                    - args:
+                      - args:
+                        - args:
+                          - args:
+                            - type: constant
+                              value: "░░░░░░░░░░"
+                              value_type: string
+                              result_type: text
+                            - type: constant
+                              value: '0'
+                              value_type: number
+                              result_type: number
+                            - args:
+                              - args:
+                                - type: constant
+                                  value: '10'
+                                  value_type: number
+                                  result_type: number
+                                - args:
+                                  - args:
+                                    - id: M>sq
+                                      name: completed
+                                      type: property
+                                      result_type: number
+                                    - id: t6it
+                                      name: Goals
+                                      type: property
+                                      result_type: number
+                                    name: divide
+                                    type: operator
+                                    operator: "/"
+                                    result_type: number
+                                  - type: constant
+                                    value: '10'
+                                    value_type: number
+                                    result_type: number
+                                  name: multiply
+                                  type: operator
+                                  operator: "*"
+                                  result_type: number
+                                name: subtract
+                                type: operator
+                                operator: "-"
+                                result_type: number
+                              name: ceil
+                              type: function
+                              result_type: number
+                            name: slice
+                            type: function
+                            result_type: text
+                          - type: constant
+                            value: " "
+                            value_type: string
+                            result_type: text
+                          name: add
+                          type: operator
+                          operator: "+"
+                          result_type: text
+                        - args:
+                          - args:
+                            - args:
+                              - args:
+                                - id: M>sq
+                                  name: completed
+                                  type: property
+                                  result_type: number
+                                - id: t6it
+                                  name: Goals
+                                  type: property
+                                  result_type: number
+                                name: divide
+                                type: operator
+                                operator: "/"
+                                result_type: number
+                              - type: constant
+                                value: '100'
+                                value_type: number
+                                result_type: number
+                              name: multiply
+                              type: operator
+                              operator: "*"
+                              result_type: number
+                            name: round
+                            type: function
+                            result_type: number
+                          name: format
+                          type: function
+                          result_type: text
+                        name: add
+                        type: operator
+                        operator: "+"
+                        result_type: text
+                      - 'true':
+                          type: constant
+                          value: "%"
+                          value_type: string
+                          result_type: text
+                        type: conditional
+                        'false':
+                          type: constant
+                          value: "%"
+                          value_type: string
+                          result_type: text
+                        condition:
+                          args:
+                          - id: M>sq
+                            name: completed
+                            type: property
+                            result_type: number
+                          name: empty
+                          type: function
+                          result_type: checkbox
+                        result_type: text
+                      name: add
+                      type: operator
+                      operator: "+"
+                      result_type: text
+                    name: format
+                    type: function
+                    result_type: text
+                  name: add
+                  type: operator
+                  operator: "+"
+                  result_type: text
+                name: format
+                type: function
+                result_type: text
+              condition:
+                args:
+                - args:
+                  - id: M>sq
+                    name: completed
+                    type: property
+                    result_type: number
+                  - id: t6it
+                    name: Goals
+                    type: property
+                    result_type: number
+                  name: divide
+                  type: operator
+                  operator: "/"
+                  result_type: number
+                - type: constant
+                  value: '1'
+                  value_type: number
+                  result_type: number
+                name: largerEq
+                type: operator
+                operator: ">="
+                result_type: checkbox
+              result_type: text
+          6JDg:
+            name: "\U0001F525remain Actions"
+            type: rollup
+            aggregation: unchecked
+            target_property: Q}]M
+            relation_property: ie:_
+            target_property_type: checkbox
+          8OeU:
+            name: Goal Outcomes
+            type: relation
+            property: "}t=_"
+            collection_id: 6b1af6bf-7be3-41d8-a2b9-c65511a21115
+          M>sq:
+            name: completed
+            type: number
+          Mmqc:
+            name: Priority
+            type: select
+            options:
+            - id: abf6f629-319c-4d67-b58f-110fa59d398e
+              color: pink
+              value: 1st priority
+            - id: 4986d974-9bd8-4538-ba96-56fb6cba94a9
+              color: purple
+              value: 2nd priority
+            - id: 621713f0-7172-42d8-b041-6fe6f9df5541
+              color: green
+              value: 3rd priority
+            - id: 8c2fd160-8374-433d-b96d-4c7021ff5d93
+              color: orange
+              value: 4th priority
+          WUs0:
+            name: "\U0001F9EAneed schedule"
+            type: formula
+            formula:
+              'true':
+                type: constant
+                value: "\U0001F525need schedule"
+                value_type: string
+                result_type: text
+              type: conditional
+              'false':
+                type: constant
+                value: ''
+                value_type: string
+                result_type: text
+              condition:
+                args:
+                - args:
+                  - args:
+                    - id: b~0v
+                      name: "\U0001F9EA project type"
+                      type: property
+                      result_type: text
+                    - type: constant
+                      value: dev project
+                      value_type: string
+                      result_type: text
+                    name: equal
+                    type: operator
+                    operator: "=="
+                    result_type: checkbox
+                  - args:
+                    - args:
+                      - id: "`NtP"
+                        name: status
+                        type: property
+                        result_type: text
+                      - type: constant
+                        value: next up
+                        value_type: string
+                        result_type: text
+                      name: equal
+                      type: operator
+                      operator: "=="
+                      result_type: checkbox
+                    - args:
+                      - id: "`NtP"
+                        name: status
+                        type: property
+                        result_type: text
+                      - type: constant
+                        value: in progress
+                        value_type: string
+                        result_type: text
+                      name: equal
+                      type: operator
+                      operator: "=="
+                      result_type: checkbox
+                    name: or
+                    type: operator
+                    operator: or
+                    result_type: checkbox
+                  name: and
+                  type: operator
+                  operator: and
+                  result_type: checkbox
+                - args:
+                  - args:
+                    - id: k!D<
+                      name: "\U0001F4C5 Next Scheduled Actions In"
+                      type: property
+                      result_type: date
+                    name: empty
+                    type: function
+                    result_type: checkbox
+                  - args:
+                    - args:
+                      - name: now
+                        type: function
+                        result_type: date
+                      - id: k!D<
+                        name: "\U0001F4C5 Next Scheduled Actions In"
+                        type: property
+                        result_type: date
+                      - type: constant
+                        value: hours
+                        value_type: string
+                        result_type: text
+                      name: dateBetween
+                      type: function
+                      result_type: number
+                    - type: constant
+                      value: '12'
+                      value_type: number
+                      result_type: number
+                    name: larger
+                    type: operator
+                    operator: ">"
+                    result_type: checkbox
+                  name: or
+                  type: operator
+                  operator: or
+                  result_type: checkbox
+                name: and
+                type: operator
+                operator: and
+                result_type: checkbox
+              result_type: text
+          "`NtP":
+            name: status
+            type: select
+            options:
+            - id: 468eaeda-03fc-4249-8f82-2ad32e3348a9
+              color: green
+              value: in progress
+            - id: d29d9bf2-32dc-4650-a0ed-38871025f76b
+              color: orange
+              value: next up
+            - id: f35a6868-5d64-4e37-8248-0b07ad52de9b
+              color: pink
+              value: futur
+            - id: 61095357-f9b5-45ea-9e56-1dd647d73124
+              color: yellow
+              value: on Hold
+            - id: caffed58-9b72-4605-b7aa-7c1f3a32c50b
+              color: red
+              value: Someday/Maybe
+            - id: a1db33d3-b5fd-4baa-8250-2cb1b63571b2
+              color: default
+              value: Complete
+            - id: 25d14817-7663-435a-9be6-2c02be07b20b
+              color: brown
+              value: incubation
+            - id: b8e022bb-3c88-478b-8e43-3e285a6becc1
+              color: purple
+              value: continous
+          b~0v:
+            name: "\U0001F9EA project type"
+            type: select
+            options:
+            - id: 8f0c3a6e-4404-4afc-8670-a3f9dc75498a
+              color: blue
+              value: dev project
+          hon=:
+            name: notes
+            type: text
+          ie:_:
+            name: Actions Items
+            type: relation
+            property: ToHA
+            collection_id: 7a98d4cd-8c6d-4653-91fc-8cb8a8ba18c2
+          jD9U:
+            name: kind
+            type: text
+          k!D<:
+            name: "\U0001F4C5 Next Scheduled Actions In"
+            type: rollup
+            aggregation: latest_date
+            target_property: N~,m
+            relation_property: ie:_
+            target_property_type: date
+          t6it:
+            name: Goals
+            type: number
+          title:
+            name: Project
+            type: title
+        icon: "\U0001F31A"
+        format:
+          '0':
+            visible: true
+            property: Mmqc
+          '1':
+            visible: true
+            property: "`NtP"
+          '2':
+            visible: true
+            property: "#ACE"
+          '3':
+            visible: true
+            property: hon=
+          '4':
+            visible: false
+            property: M>sq
+          '5':
+            visible: false
+            property: t6it
+          '6':
+            visible: false
+            property: '%"V0'
+          '7':
+            visible: true
+            property: b~0v
+          '8':
+            visible: true
+            property: k!D<
+          '9':
+            visible: false
+            property: WUs0
+          '10':
+            visible: false
+            property: "#nR{"
+          '11':
+            visible: false
+            property: 6JDg
+          '12':
+            visible: false
+            property: "\"QA4"
+          '13':
+            visible: false
+            property: ie:_
+          '14':
+            visible: false
+            property: 8OeU
+          '15':
+            visible: true
+            property: "@f07"
+          '16':
+            visible: true
+            property: jD9U
+          '17':
+            visible: true
+            property: z,Z3
+          collection_page_properties:
+          - visible: true
+            property: Mmqc
+          - visible: true
+            property: "`NtP"
+          - visible: true
+            property: "#ACE"
+          - visible: true
+            property: hon=
+          - visible: false
+            property: M>sq
+          - visible: false
+            property: t6it
+          - visible: false
+            property: '%"V0'
+          - visible: true
+            property: b~0v
+          - visible: true
+            property: k!D<
+          - visible: false
+            property: WUs0
+          - visible: false
+            property: "#nR{"
+          - visible: false
+            property: 6JDg
+          - visible: false
+            property: "\"QA4"
+          - visible: false
+            property: ie:_
+          - visible: false
+            property: 8OeU
+          - visible: true
+            property: "@f07"
+          - visible: true
+            property: jD9U
+          - visible: true
+            property: z,Z3
+        parent_id: 612f343a-ede0-4396-a120-d4e568d65eff
+        parent_table: block
+        alive: true
+        template_pages:
+        - e8d794da-978e-4edb-8179-b595981e522b
+    d1c0a8e7-0665-41aa-b475-39202142e3b7:
+      role: editor
+      value:
+        id: d1c0a8e7-0665-41aa-b475-39202142e3b7
+        version: 9
+        name:
+        - - Pillars
+        schema:
+          KAz;:
+            name: Files
+            type: file
+          xu=j:
+            name: Tags
+            type: multi_select
+          zBU\:
+            name: Related to Value Goals DB (Pillars)
+            type: relation
+            property: k\!>
+            collection_id: e11cccf7-6c6c-48e5-808a-2127e6d1191d
+          title:
+            name: Name
+            type: title
+        format:
+          collection_page_properties:
+          - visible: true
+            property: xu=j
+          - visible: true
+            property: KAz;
+        parent_id: 26482c23-37f4-4099-adf8-64d88cfcf877
+        parent_table: block
+        alive: true
+    10d43730-0d68-476e-af3a-39e9033498fd:
+      role: editor
+      value:
+        id: 10d43730-0d68-476e-af3a-39e9033498fd
+        version: 53
+        name:
+        - - Project (portfolio)
+        description:
+        - - "Use this template to track all of your project work.\n\n⛰ "
+        - - Epics
+          - - - b
+        - - " are large overarching initiatives.\n\U0001F3C3‍♂️ "
+        - - Sprints
+          - - - b
+        - - " are time-bounded pushes to complete a set of tasks.\n\U0001F528 "
+        - - Tasks
+          - - - b
+        - - " are the actions that make up epics.\n\U0001F41E "
+        - - Bugs
+          - - - b
+        - - " are tasks to fix things.\n\n"
+        - - "↓"
+          - - - b
+        - - " Click "
+        - - By Status
+          - - - c
+        - - " to isolate epics, sprints, tasks or bugs. Sort tasks by status, engineer
+            or product manager . Switch to calendar view to see when work is scheduled
+            to be completed."
+        schema:
+          "$v1Q":
+            name: Engineers
+            type: person
+          ".gA{":
+            name: current status
+            type: formula
+            formula:
+              id: "|F4-"
+              name: Status
+              type: property
+              result_type: text
+          4le?:
+            name: canShow
+            type: formula
+            formula:
+              'true':
+                type: constant
+                value: hide
+                value_type: string
+                result_type: text
+              type: conditional
+              'false':
+                type: constant
+                value: ok
+                value_type: string
+                result_type: text
+              condition:
+                args:
+                - args:
+                  - id: Tbkh
+                    name: prevCount
+                    type: property
+                    result_type: number
+                  - type: constant
+                    value: '0'
+                    value_type: number
+                    result_type: number
+                  name: larger
+                  type: operator
+                  operator: ">"
+                  result_type: checkbox
+                - args:
+                  - id: Z^7H
+                    name: prevStatusNotEmpty
+                    type: property
+                    result_type: number
+                  - type: constant
+                    value: '0'
+                    value_type: number
+                    result_type: number
+                  name: equal
+                  type: operator
+                  operator: "=="
+                  result_type: checkbox
+                name: and
+                type: operator
+                operator: and
+                result_type: checkbox
+              result_type: text
+          6=yp:
+            name: Tasks
+            type: relation
+            property: L[K<
+            collection_id: 10d43730-0d68-476e-af3a-39e9033498fd
+          9dB^:
+            name: Type
+            type: select
+            options:
+            - id: ca62f85e-a4ac-474f-b493-82d2df005dff
+              color: green
+              value: Epic ⛰️
+            - id: 3f806034-9c48-4519-871e-60c9c32d73d8
+              color: yellow
+              value: "Task \U0001F528"
+            - id: 1497e06a-abf3-4c81-a619-debfa0c70621
+              color: red
+              value: "Bug \U0001F41E"
+            - id: d13bb70e-d939-42fa-919b-91eff96f0856
+              color: pink
+              value: design
+          FZtd:
+            name: info
+            type: formula
+          Jz.@:
+            name: Sprint
+            type: multi_select
+            options:
+            - id: fae6348e-a667-48ef-9891-396527ba7d0b
+              color: blue
+              value: Sprint 1
+          L[K<:
+            name: Epic
+            type: relation
+            property: 6=yp
+            collection_id: 10d43730-0d68-476e-af3a-39e9033498fd
+          Tbkh:
+            name: prevCount
+            type: rollup
+            aggregation: count
+            target_property: title
+            relation_property: r6<5
+            target_property_type: title
+          Z^7H:
+            name: prevStatusNotEmpty
+            type: rollup
+            aggregation: not_empty
+            target_property: "|F4-"
+            relation_property: r6<5
+            target_property_type: select
+          _G+l:
+            name: Timeline
+            type: date
+          "`J7o":
+            name: Next
+            type: relation
+            property: r6<5
+            collection_id: 10d43730-0d68-476e-af3a-39e9033498fd
+          iwS0:
+            name: Created
+            type: created_time
+          ma:W:
+            name: Product Manager
+            type: person
+          q~,]:
+            name: nextCount
+            type: rollup
+            aggregation: count
+            target_property: title
+            relation_property: "`J7o"
+            target_property_type: title
+          r6<5:
+            name: Prev
+            type: relation
+            property: "`J7o"
+            collection_id: 10d43730-0d68-476e-af3a-39e9033498fd
+          "{MEq":
+            name: Priority
+            type: select
+            options:
+            - id: 09fy
+              color: red
+              value: "P1 \U0001F525"
+            - id: e1b2f058-4989-4dee-a873-4e88f58d4d0a
+              color: orange
+              value: P2
+            - id: 0bb46e0b-be4f-4b9c-87c2-b990868e9f92
+              color: yellow
+              value: P3
+            - id: 1a5512c5-39ad-4fb7-959f-68f596849eeb
+              color: green
+              value: P4
+            - id: 28c7cce9-7163-4407-9569-3f070da82ad1
+              color: blue
+              value: P5
+          "|F4-":
+            name: Status
+            type: select
+            options:
+            - id: c224a5a5-c284-431e-a65d-90a71712bcac
+              color: red
+              value: Not Started
+            - id: ab7c2b08-ed87-4c04-b30f-fa62440f75d5
+              color: yellow
+              value: In Progress
+            - id: c410e525-9a47-4ed2-9e72-299abee65575
+              color: green
+              value: "Complete \U0001F64C"
+          title:
+            name: Projects
+            type: title
+        icon: "\U0001F698"
+        format:
+          '0':
+            visible: false
+            property: iwS0
+          '1':
+            visible: false
+            property: 9dB^
+          '2':
+            visible: false
+            property: "|F4-"
+          '3':
+            visible: true
+            property: ".gA{"
+          '4':
+            visible: false
+            property: L[K<
+          '5':
+            visible: true
+            property: Jz.@
+          '6':
+            visible: false
+            property: "{MEq"
+          '7':
+            visible: false
+            property: 6=yp
+          '8':
+            visible: false
+            property: _G+l
+          '9':
+            visible: false
+            property: ma:W
+          '10':
+            visible: false
+            property: "$v1Q"
+          '11':
+            visible: true
+            property: "`J7o"
+          '12':
+            visible: false
+            property: r6<5
+          '13':
+            visible: true
+            property: Z^7H
+          '14':
+            visible: true
+            property: Tbkh
+          '15':
+            visible: true
+            property: 4le?
+          '16':
+            visible: true
+            property: q~,]
+          collection_page_properties:
+          - visible: false
+            property: iwS0
+          - visible: false
+            property: 9dB^
+          - visible: false
+            property: "|F4-"
+          - visible: true
+            property: ".gA{"
+          - visible: false
+            property: L[K<
+          - visible: true
+            property: Jz.@
+          - visible: false
+            property: "{MEq"
+          - visible: false
+            property: 6=yp
+          - visible: false
+            property: _G+l
+          - visible: false
+            property: ma:W
+          - visible: false
+            property: "$v1Q"
+          - visible: true
+            property: "`J7o"
+          - visible: true
+            property: q~,]
+          - visible: false
+            property: r6<5
+          - visible: true
+            property: Z^7H
+          - visible: true
+            property: Tbkh
+          - visible: true
+            property: 4le?
+        parent_id: c4b68bcd-1d17-4763-8090-3e71ecf767e8
+        parent_table: block
+        alive: true
+        copied_from: a3d48231-31e9-4f76-af45-5a307c7ef53d
+        template_pages:
+        - a9347d59-09cf-4718-8e78-120da2c8a725
+        - ea6f3f9c-e58c-41b8-b8d9-15651ea80654
+        - 30c16e68-85a1-4579-b21d-fb03fc082f20
+    190964ff-a717-4873-88cd-7c8310d4027e:
+      role: editor
+      value:
+        id: 190964ff-a717-4873-88cd-7c8310d4027e
+        version: 91
+        name:
+        - - concepts
+        schema:
+          "!+h$":
+            name: Parent
+            type: relation
+            property: zj#]
+            collection_id: 190964ff-a717-4873-88cd-7c8310d4027e
+          ")W}^":
+            name: summary
+            type: text
+          4tu(:
+            name: status
+            type: select
+            options:
+            - id: a53c0723-67b7-4b90-a842-a0891bc66024
+              color: default
+              value: to summarize
+            - id: 3f7a73b5-056c-4fe3-9c58-70f7496d09e4
+              color: green
+              value: to Complete
+            - id: 50343a15-186f-4975-a749-805ca99184f3
+              color: orange
+              value: to learn
+            - id: e1d93522-84a5-4404-9abe-f6bd1b21ec7a
+              color: brown
+              value: ok
+          ";90q":
+            name: fields
+            type: multi_select
+            options:
+            - id: c305666d-a8f9-44fa-ab39-b137e500b5fa
+              color: green
+              value: root
+            - id: e290a6f2-6479-4228-aa76-1de3df41d2e0
+              color: gray
+              value: algorithm
+          dR?%:
+            name: kind
+            type: select
+            options:
+            - id: ccc4fd0e-4493-403c-af24-5f107d7c7eb0
+              color: green
+              value: area
+            - id: 288a17b2-c846-4f21-bc6c-2ef6a7717534
+              color: orange
+              value: concept
+          qIFo:
+            name: relations
+            type: relation
+            property: "-sk7"
+            collection_id: d81c5273-a05c-4979-b5e3-b10c2413ff5f
+          zj#]:
+            name: Sub Concept
+            type: relation
+            property: "!+h$"
+            collection_id: 190964ff-a717-4873-88cd-7c8310d4027e
+          title:
+            name: Name
+            type: title
+        format:
+          '0':
+            visible: false
+            property: ")W}^"
+          '1':
+            visible: false
+            property: "!+h$"
+          '2':
+            visible: false
+            property: zj#]
+          '3':
+            visible: true
+            property: dR?%
+          '4':
+            visible: false
+            property: ";90q"
+          '5':
+            visible: true
+            property: 4tu(
+          collection_page_properties:
+          - visible: false
+            property: ")W}^"
+          - visible: false
+            property: "!+h$"
+          - visible: false
+            property: zj#]
+          - visible: true
+            property: dR?%
+          - visible: false
+            property: ";90q"
+          - visible: true
+            property: 4tu(
+        parent_id: e076b9ed-1999-45f8-8004-68fcfd0e1e30
+        parent_table: block
+        alive: true
+        template_pages:
+        - bf6503ea-8844-426c-99f4-aa78691c3eaa
+        - f8a1eb77-3108-4b6b-9c7d-67eb5dc31e51
+    6b1af6bf-7be3-41d8-a2b9-c65511a21115:
+      role: editor
+      value:
+        id: 6b1af6bf-7be3-41d8-a2b9-c65511a21115
+        version: 105
+        name:
+        - - Goal Outcomes DB
+        schema:
+          "$>'C":
+            name: progress
+            type: formula
+            formula:
+              'true':
+                type: constant
+                value: "✅"
+                value_type: string
+                result_type: text
+              type: conditional
+              'false':
+                args:
+                - args:
+                  - args:
+                    - type: constant
+                      value: "▓▓▓▓▓▓▓▓▓▓"
+                      value_type: string
+                      result_type: text
+                    - type: constant
+                      value: '0'
+                      value_type: number
+                      result_type: number
+                    - args:
+                      - args:
+                        - args:
+                          - id: v{:X
+                            name: completed
+                            type: property
+                            result_type: number
+                          - id: E.Il
+                            name: Goals
+                            type: property
+                            result_type: number
+                          name: divide
+                          type: operator
+                          operator: "/"
+                          result_type: number
+                        - type: constant
+                          value: '10'
+                          value_type: number
+                          result_type: number
+                        name: multiply
+                        type: operator
+                        operator: "*"
+                        result_type: number
+                      name: floor
+                      type: function
+                      result_type: number
+                    name: slice
+                    type: function
+                    result_type: text
+                  - args:
+                    - args:
+                      - args:
+                        - args:
+                          - args:
+                            - type: constant
+                              value: "░░░░░░░░░░"
+                              value_type: string
+                              result_type: text
+                            - type: constant
+                              value: '0'
+                              value_type: number
+                              result_type: number
+                            - args:
+                              - args:
+                                - type: constant
+                                  value: '10'
+                                  value_type: number
+                                  result_type: number
+                                - args:
+                                  - args:
+                                    - id: v{:X
+                                      name: completed
+                                      type: property
+                                      result_type: number
+                                    - id: E.Il
+                                      name: Goals
+                                      type: property
+                                      result_type: number
+                                    name: divide
+                                    type: operator
+                                    operator: "/"
+                                    result_type: number
+                                  - type: constant
+                                    value: '10'
+                                    value_type: number
+                                    result_type: number
+                                  name: multiply
+                                  type: operator
+                                  operator: "*"
+                                  result_type: number
+                                name: subtract
+                                type: operator
+                                operator: "-"
+                                result_type: number
+                              name: ceil
+                              type: function
+                              result_type: number
+                            name: slice
+                            type: function
+                            result_type: text
+                          - type: constant
+                            value: " "
+                            value_type: string
+                            result_type: text
+                          name: add
+                          type: operator
+                          operator: "+"
+                          result_type: text
+                        - args:
+                          - args:
+                            - args:
+                              - args:
+                                - id: v{:X
+                                  name: completed
+                                  type: property
+                                  result_type: number
+                                - id: E.Il
+                                  name: Goals
+                                  type: property
+                                  result_type: number
+                                name: divide
+                                type: operator
+                                operator: "/"
+                                result_type: number
+                              - type: constant
+                                value: '100'
+                                value_type: number
+                                result_type: number
+                              name: multiply
+                              type: operator
+                              operator: "*"
+                              result_type: number
+                            name: round
+                            type: function
+                            result_type: number
+                          name: format
+                          type: function
+                          result_type: text
+                        name: add
+                        type: operator
+                        operator: "+"
+                        result_type: text
+                      - 'true':
+                          type: constant
+                          value: "%"
+                          value_type: string
+                          result_type: text
+                        type: conditional
+                        'false':
+                          type: constant
+                          value: "%"
+                          value_type: string
+                          result_type: text
+                        condition:
+                          args:
+                          - id: v{:X
+                            name: completed
+                            type: property
+                            result_type: number
+                          name: empty
+                          type: function
+                          result_type: checkbox
+                        result_type: text
+                      name: add
+                      type: operator
+                      operator: "+"
+                      result_type: text
+                    name: format
+                    type: function
+                    result_type: text
+                  name: add
+                  type: operator
+                  operator: "+"
+                  result_type: text
+                name: format
+                type: function
+                result_type: text
+              condition:
+                args:
+                - args:
+                  - id: v{:X
+                    name: completed
+                    type: property
+                    result_type: number
+                  - id: E.Il
+                    name: Goals
+                    type: property
+                    result_type: number
+                  name: divide
+                  type: operator
+                  operator: "/"
+                  result_type: number
+                - type: constant
+                  value: '1'
+                  value_type: number
+                  result_type: number
+                name: largerEq
+                type: operator
+                operator: ">="
+                result_type: checkbox
+              result_type: text
+          "&4_X":
+            name: quarter
+            type: relation
+            property: W5a\
+            collection_id: ff2e4c12-34b4-41d7-b313-27b8ebfeb297
+          ")^P&":
+            name: Priority
+            type: select
+            options:
+            - id: 686017ab-6a73-4ead-8da2-b072dbb07188
+              color: pink
+              value: 1st priority
+          0I*g:
+            name: Habits
+            type: relation
+            property: H/3D
+            collection_id: 3bb26d4b-2eb1-4801-8acf-8204e50c702c
+          ":_4t":
+            name: status
+            type: select
+            options:
+            - id: b5dba29c-c96f-44c7-a92a-fd9d6626add5
+              color: green
+              value: Underway
+          E.Il:
+            name: Goals
+            type: number
+          Fr,q:
+            name: pillars
+            type: rollup
+            target_property: k\!>
+            relation_property: "},j:"
+            target_property_type: relation
+          _XX):
+            name: Actions
+            type: relation
+            property: YigS
+            collection_id: 7a98d4cd-8c6d-4653-91fc-8cb8a8ba18c2
+          v!}R:
+            name: term
+            type: select
+            options:
+            - id: 6849ad99-606c-42c5-be45-7a9fdf32b947
+              color: green
+              value: 'Now: 3 Months'
+            - id: 743bb2f9-2cf2-4f7e-b674-14b9716513b5
+              color: orange
+              value: 'Short: 3-6 months'
+            - id: 151db57f-0763-4019-8bcc-9d6bac3a016d
+              color: brown
+              value: 'Medium: 6-12months'
+            - id: 01e76364-c2ad-4f03-badb-ef74a8fb7953
+              color: yellow
+              value: 'Long: 1+ years'
+          v{:X:
+            name: completed
+            type: number
+          "},j:":
+            name: Value Goals
+            type: relation
+            property: m&@#
+            collection_id: e11cccf7-6c6c-48e5-808a-2127e6d1191d
+          "}-22":
+            name: target completion date
+            type: date
+          "}t=_":
+            name: Projects
+            type: relation
+            property: 8OeU
+            collection_id: 080c4b06-021c-4fce-8948-2def329f1d80
+          title:
+            name: Name
+            type: title
+        format:
+          '0':
+            visible: false
+            property: ":_4t"
+          '1':
+            visible: false
+            property: ")^P&"
+          '2':
+            visible: false
+            property: "},j:"
+          '3':
+            visible: false
+            property: "}t=_"
+          '4':
+            visible: true
+            property: _XX)
+          '5':
+            visible: false
+            property: 0I*g
+          '6':
+            visible: false
+            property: v{:X
+          '7':
+            visible: false
+            property: E.Il
+          '8':
+            visible: false
+            property: "$>'C"
+          '9':
+            visible: true
+            property: "}-22"
+          '10':
+            visible: true
+            property: v!}R
+          '11':
+            visible: false
+            property: Fr,q
+          '12':
+            visible: false
+            property: "&4_X"
+          '13':
+            visible: true
+            property: C\fT
+          '14':
+            visible: true
+            property: "&\\%7"
+          collection_page_properties:
+          - visible: false
+            property: ":_4t"
+          - visible: false
+            property: ")^P&"
+          - visible: false
+            property: "},j:"
+          - visible: false
+            property: "}t=_"
+          - visible: true
+            property: _XX)
+          - visible: false
+            property: 0I*g
+          - visible: false
+            property: v{:X
+          - visible: false
+            property: E.Il
+          - visible: false
+            property: "$>'C"
+          - visible: true
+            property: "}-22"
+          - visible: true
+            property: v!}R
+          - visible: false
+            property: Fr,q
+          - visible: false
+            property: "&4_X"
+          - visible: true
+            property: C\fT
+          - visible: true
+            property: "&\\%7"
+        parent_id: 97668ae6-ea49-481e-8b4a-c0e605440cce
+        parent_table: block
+        alive: true
+        template_pages:
+        - 11c7e73e-5297-4cdf-876f-8d355a30b473
+    721c7d6b-86a4-45b5-9282-a77df2c7c7fe:
+      role: editor
+      value:
+        id: 721c7d6b-86a4-45b5-9282-a77df2c7c7fe
+        version: 256
+        name:
+        - - Problems DB
+        schema:
+          "?Abx":
+            name: fail note
+            type: text
+          LY*K:
+            name: solution
+            type: select
+            options:
+            - id: c75bf130-3960-46ff-976b-19ca2ac744d8
+              color: brown
+              value: didnt found why
+          "`c@,":
+            name: created
+            type: created_time
+          f)sd:
+            name: solved
+            type: checkbox
+          g!z$:
+            name: observations
+            type: text
+          hBY3:
+            name: fail kind
+            type: select
+            options:
+            - id: b129edc9-fa78-4a4a-8c5a-af239977ced9
+              color: orange
+              value: wrong answer
+            - id: 94d1c792-db10-49b1-be12-5809bd086ee8
+              color: pink
+              value: No Solution
+          m|^9:
+            name: url
+            type: url
+          u'P#:
+            name: status
+            type: select
+            options:
+            - id: 1862549f-6988-4910-8aea-6e1bf5326be5
+              color: yellow
+              value: started
+            - id: e6eba01d-b3b6-4beb-ac49-88a4101e180f
+              color: brown
+              value: failed
+            - id: 73eeff9f-873e-45c7-b6e8-7406950de9ca
+              color: pink
+              value: accepted
+          x_!O:
+            name: contestId
+            type: text
+            formula:
+              args:
+              - id: title
+                name: Name
+                type: property
+                result_type: text
+              - type: constant
+                value: "\\s*/\\s*.*$"
+                value_type: string
+                result_type: text
+              - type: constant
+                value: ''
+                value_type: string
+                result_type: text
+              name: replace
+              type: function
+              result_type: text
+          "{!k@":
+            name: problem id
+            type: text
+          "~hCC":
+            name: platform
+            type: select
+            formula:
+              'true':
+                type: constant
+                value: codeforces
+                value_type: string
+                result_type: text
+              type: conditional
+              'false':
+                type: constant
+                value: "?"
+                value_type: string
+                result_type: text
+              condition:
+                args:
+                - id: title
+                  name: Name
+                  type: property
+                  result_type: text
+                - type: constant
+                  value: "^\\d+/\\w+$"
+                  value_type: string
+                  result_type: text
+                name: test
+                type: function
+                result_type: checkbox
+              result_type: text
+            options:
+            - id: 5743fbd3-e970-46ca-a67d-d2adc79d7333
+              color: red
+              value: codeforces
+          title:
+            name: Name
+            type: title
+        icon: "\U0001F4A1"
+        format:
+          collection_page_properties:
+          - visible: false
+            property: "`c@,"
+          - visible: false
+            property: hBY3
+          - visible: false
+            property: f)sd
+          - visible: false
+            property: 6K`q
+          - visible: false
+            property: J5TH
+        parent_id: 46bf32ae-2c75-41dd-b25b-3f31840221a4
+        parent_table: block
+        alive: true
+        template_pages:
+        - 4c36831a-e0fd-4749-8abd-8b894349843a
+    771c4b5b-1aab-4410-aaea-c3fc4648c3d0:
+      role: editor
+      value:
+        id: 771c4b5b-1aab-4410-aaea-c3fc4648c3d0
+        version: 225
+        name:
+        - - Domains DB
+        description:
+        - - Database in which I store information about internet domain names I own
+        schema:
+          3:3t:
+            name: password tips
+            type: text
+          EE~*:
+            name: need renew?
+            type: formula
+            formula:
+              'true':
+                type: constant
+                value: "\U0001F525\U0001F525 need renew"
+                value_type: string
+                result_type: text
+              type: conditional
+              'false':
+                type: constant
+                value: ''
+                value_type: string
+                result_type: text
+              condition:
+                args:
+                - args:
+                  - id: Z\sc
+                    name: end
+                    type: property
+                    result_type: date
+                  - name: now
+                    type: function
+                    result_type: date
+                  - type: constant
+                    value: days
+                    value_type: string
+                    result_type: text
+                  name: dateBetween
+                  type: function
+                  result_type: number
+                - type: constant
+                  value: '90'
+                  value_type: number
+                  result_type: number
+                name: smaller
+                type: operator
+                operator: "<"
+                result_type: checkbox
+              result_type: text
+          GPmY:
+            name: registrar
+            type: select
+            options:
+            - id: 9a6fef11-2c61-4cc5-803f-59eaec27affb
+              color: orange
+              value: lws
+            - id: cbbc6d44-f546-45c1-b5ae-03a6e3de230e
+              color: brown
+              value: freenom
+            - id: b6976c19-85b1-49f4-bf7d-5e356358cd71
+              color: default
+              value: omen
+            - id: ad6b3a8c-3329-49f6-8090-0dc40e231d4c
+              color: gray
+              value: godaddy
+          Z\sc:
+            name: end
+            type: date
+          a#jS:
+            name: username
+            type: text
+          bNCf:
+            name: email
+            type: text
+          title:
+            name: Name
+            type: title
+        format:
+          collection_page_properties:
+          - visible: true
+            property: GPmY
+          - visible: true
+            property: "`-(_"
+        parent_id: 06eed80e-efa5-4bd9-b047-c67c4ba79ebd
+        parent_table: block
+        alive: true
+    7a98d4cd-8c6d-4653-91fc-8cb8a8ba18c2:
+      role: editor
+      value:
+        id: 7a98d4cd-8c6d-4653-91fc-8cb8a8ba18c2
+        version: 215
+        name:
+        - - " Action DB"
+        schema:
+          "&3)T":
+            name: Hours
+            type: formula
+            formula:
+              'true':
+                'true':
+                  type: constant
+                  value: "\U0001F34Etoday only"
+                  value_type: string
+                  result_type: text
+                type: conditional
+                'false':
+                  type: constant
+                  value: ''
+                  value_type: string
+                  result_type: text
+                condition:
+                  id: tb%l
+                  name: Due Date
+                  type: property
+                  result_type: date
+                result_type: text
+              type: conditional
+              'false':
+                args:
+                - type: constant
+                  value: "\U0001F525"
+                  value_type: string
+                  result_type: text
+                - args:
+                  - id: N~,m
+                    name: Do Date
+                    type: property
+                    result_type: date
+                  - type: constant
+                    value: HH:mm
+                    value_type: string
+                    result_type: text
+                  name: formatDate
+                  type: function
+                  result_type: text
+                name: add
+                type: operator
+                operator: "+"
+                result_type: text
+              condition:
+                args:
+                - args:
+                  - id: N~,m
+                    name: Do Date
+                    type: property
+                    result_type: date
+                  name: hour
+                  type: function
+                  result_type: number
+                - type: constant
+                  value: '0'
+                  value_type: number
+                  result_type: number
+                name: equal
+                type: operator
+                operator: "=="
+                result_type: checkbox
+              result_type: text
+          "+WJ>":
+            name: Next
+            type: relation
+            property: 1z0i
+            collection_id: 7a98d4cd-8c6d-4653-91fc-8cb8a8ba18c2
+          "/fo?":
+            name: Created
+            type: created_time
+          1z0i:
+            name: Prevs
+            type: relation
+            property: "+WJ>"
+            collection_id: 7a98d4cd-8c6d-4653-91fc-8cb8a8ba18c2
+          8mC|:
+            name: Priority
+            type: select
+            options:
+            - id: ddbb8550-dd37-4e5e-b8ff-32237de3e256
+              color: gray
+              value: Quick Task
+            - id: 28cd7ba3-1403-45fb-babf-c63d65bd2ff5
+              color: orange
+              value: 1st Priority
+            - id: 0e538185-54c2-4f2b-bca0-e6228e0ea176
+              color: green
+              value: 2nd Priority
+            - id: 5e5e35a3-cdc0-462d-99cd-000da16356fc
+              color: blue
+              value: 3rd Priority
+            - id: a9126a14-b28a-44bc-a50b-31ba95c44dfc
+              color: gray
+              value: 4th Priority
+            - id: 420ae783-b5b2-4d4d-a772-8ed7e2e4493e
+              color: default
+              value: 5th Priority
+            - id: 6eb484cf-1bd2-45f6-91bb-bf7cec6953bf
+              color: purple
+              value: Errand
+            - id: 558c03b0-3a43-44df-97a3-1635138d5dce
+              color: red
+              value: Remember
+          A8Pz:
+            name: Note
+            type: text
+          B(@c:
+            name: hideUntilToday
+            type: formula
+            formula:
+              'true':
+                type: constant
+                value: hide
+                value_type: string
+                result_type: text
+              type: conditional
+              'false':
+                type: constant
+                value: ''
+                value_type: string
+                result_type: text
+              condition:
+                args:
+                - id: 8mC|
+                  name: Priority
+                  type: property
+                  result_type: text
+                - type: constant
+                  value: Remember
+                  value_type: string
+                  result_type: text
+                name: equal
+                type: operator
+                operator: "=="
+                result_type: checkbox
+              result_type: text
+          F=6j:
+            name: Day
+            type: formula
+            formula:
+              args:
+              - id: N~,m
+                name: Do Date
+                type: property
+                result_type: date
+              - type: constant
+                value: dddd
+                value_type: string
+                result_type: text
+              name: formatDate
+              type: function
+              result_type: text
+          JcL+:
+            name: Focus arenas
+            type: multi_select
+            options:
+            - id: 66aea212-70be-4ed4-9381-c1800a84be73
+              color: default
+              value: fullstack
+            - id: d453d2de-93a5-4e39-ad29-df1afffa0fcd
+              color: default
+              value: productivity
+            - id: 6dbc2c51-91f5-4192-85c2-f7a3eef07f7d
+              color: default
+              value: control
+            - id: eb0d47c6-4940-4114-8219-5b1cf3025d94
+              color: purple
+              value: frontend
+          N~,m:
+            name: Do Date
+            type: date
+          Q}]M:
+            name: Done
+            type: checkbox
+            options:
+            - id: 4a736e1c-0fa8-4a49-b3de-a56d55c986c8
+              color: purple
+              value: To Do
+            - id: e9dae6d0-647e-4201-85b7-a8226e93301d
+              color: gray
+              value: Done
+          ToHA:
+            name: Project
+            type: relation
+            property: ie:_
+            collection_id: 080c4b06-021c-4fce-8948-2def329f1d80
+          U~T|:
+            name: Prev Count
+            type: rollup
+            aggregation: count
+            target_property: title
+            relation_property: 1z0i
+            target_property_type: title
+          YigS:
+            name: Related to Goal Outcomes DB (actions)
+            type: relation
+            property: _XX)
+            collection_id: 6b1af6bf-7be3-41d8-a2b9-c65511a21115
+          guH!:
+            name: Goal Outcome
+            type: text
+          i*-J:
+            name: Waiting
+            type: checkbox
+          q'lu:
+            name: info
+            type: formula
+            formula:
+              'true':
+                args:
+                - args:
+                  - type: constant
+                    value: "⌚"
+                    value_type: string
+                    result_type: text
+                  - id: s$k3
+                    name: "⌚Estimate Time"
+                    type: property
+                    result_type: text
+                  name: add
+                  type: operator
+                  operator: "+"
+                  result_type: text
+                - 'true':
+                    args:
+                    - type: constant
+                      value: " \U0001F525"
+                      value_type: string
+                      result_type: text
+                    - id: 8mC|
+                      name: Priority
+                      type: property
+                      result_type: text
+                    name: add
+                    type: operator
+                    operator: "+"
+                    result_type: text
+                  type: conditional
+                  'false':
+                    type: constant
+                    value: ''
+                    value_type: string
+                    result_type: text
+                  condition:
+                    args:
+                    - args:
+                      - id: 8mC|
+                        name: Priority
+                        type: property
+                        result_type: text
+                      name: empty
+                      type: function
+                      result_type: checkbox
+                    name: not
+                    type: operator
+                    operator: not
+                    result_type: checkbox
+                  result_type: text
+                name: add
+                type: operator
+                operator: "+"
+                result_type: text
+              type: conditional
+              'false':
+                type: constant
+                value: ''
+                value_type: string
+                result_type: text
+              condition:
+                args:
+                - args:
+                  - id: s$k3
+                    name: "⌚Estimate Time"
+                    type: property
+                    result_type: text
+                  name: empty
+                  type: function
+                  result_type: checkbox
+                name: not
+                type: operator
+                operator: not
+                result_type: checkbox
+              result_type: text
+          s$k3:
+            name: "⌚Estimate Time"
+            type: select
+            options:
+            - id: ea36f9e6-e57f-4115-a604-ce34fe5b76a9
+              color: green
+              value: quick
+            - id: ef80e283-9ee7-47ee-943e-4caf9fa80d94
+              color: pink
+              value: 1 pom
+            - id: a064eaf0-3508-4995-856d-14e05b74b42d
+              color: default
+              value: 1h+
+            - id: 268eedc1-b79f-4f97-b68c-e17b4d05cd5d
+              color: yellow
+              value: 2h+
+            - id: 866dfe13-0563-41dd-b559-1f462f812d12
+              color: blue
+              value: 3h+
+            - id: 5eed6209-b51b-4e55-983a-32deca89b706
+              color: red
+              value: 6h+
+          tb%l:
+            name: Due Date
+            type: date
+          z%z*:
+            name: Property
+            type: rollup
+            target_property: C\fT
+            relation_property: YigS
+            target_property_type: formula
+          title:
+            name: Action Item
+            type: title
+        icon: "\U0001F4C3"
+        format:
+          '0':
+            visible: false
+            property: 8mC|
+          '1':
+            visible: false
+            property: N~,m
+          '2':
+            visible: false
+            property: Q}]M
+          '3':
+            visible: false
+            property: ToHA
+          '4':
+            visible: true
+            property: s$k3
+          '5':
+            visible: true
+            property: JcL+
+          '6':
+            visible: false
+            property: A8Pz
+          '7':
+            visible: true
+            property: F=6j
+          '8':
+            visible: false
+            property: U~T|
+          '9':
+            visible: true
+            property: "+WJ>"
+          '10':
+            visible: false
+            property: 1z0i
+          '11':
+            visible: false
+            property: "/fo?"
+          '12':
+            visible: true
+            property: tb%l
+          '13':
+            visible: true
+            property: B(@c
+          '14':
+            visible: false
+            property: i*-J
+          '15':
+            visible: false
+            property: "&3)T"
+          '16':
+            visible: false
+            property: YigS
+          '17':
+            visible: true
+            property: guH!
+          '18':
+            visible: true
+            property: z%z*
+          '19':
+            visible: true
+            property: q'lu
+          collection_page_properties:
+          - visible: false
+            property: 8mC|
+          - visible: false
+            property: N~,m
+          - visible: false
+            property: Q}]M
+          - visible: false
+            property: ToHA
+          - visible: true
+            property: s$k3
+          - visible: true
+            property: JcL+
+          - visible: false
+            property: A8Pz
+          - visible: true
+            property: F=6j
+          - visible: false
+            property: U~T|
+          - visible: true
+            property: "+WJ>"
+          - visible: false
+            property: 1z0i
+          - visible: false
+            property: "/fo?"
+          - visible: true
+            property: tb%l
+          - visible: true
+            property: B(@c
+          - visible: false
+            property: i*-J
+          - visible: false
+            property: "&3)T"
+          - visible: false
+            property: YigS
+          - visible: true
+            property: guH!
+          - visible: true
+            property: z%z*
+          - visible: true
+            property: q'lu
+        parent_id: 9865dd37-bca4-44e7-917f-f6de03bbb45e
+        parent_table: block
+        alive: true
+        copied_from: 0844cb37-fb25-4611-95c1-22ed78677dbb
+        template_pages:
+        - eb0805b4-979c-452d-b06b-fc2b7b1dded2
+    a5c12e85-dba4-401b-8063-b0194b0d2978:
+      role: editor
+      value:
+        id: a5c12e85-dba4-401b-8063-b0194b0d2978
+        version: 12
+        name:
+        - - Reviews DB
+        schema:
+          "<.*^":
+            name: kind
+            type: select
+            options:
+            - id: 93108e0b-add1-44c3-95c7-47485645dbed
+              color: blue
+              value: weekly review
+          title:
+            name: Name
+            type: title
+        icon: "\U0001F333"
+        parent_id: 34826ddf-baac-498d-9228-4241c7e68069
+        parent_table: block
+        alive: true
+    adae104b-9e49-4013-a472-0e7fb67f05cf:
+      role: editor
+      value:
+        id: adae104b-9e49-4013-a472-0e7fb67f05cf
+        version: 128
+        name:
+        - - Tools DB
+        schema:
+          ")+|-":
+            name: "\U0001F44Econs"
+            type: text
+          ")Yg>":
+            name: value4
+            type: select
+            options:
+            - id: 69f918c1-81d6-4858-8837-7cc636757608
+              color: default
+              value: "⭐"
+            - id: b628879c-e966-450b-a9cf-ba0a6c612c1e
+              color: default
+              value: "⭐⭐"
+            - id: e7c65a09-a7ff-44cb-adb7-0b6b099517e0
+              color: default
+              value: "⭐⭐⭐"
+            - id: 7cfd589c-873f-4c67-b35c-be6deb9e222b
+              color: default
+              value: "⭐⭐⭐⭐"
+          AL4Q:
+            name: category
+            type: select
+            options:
+            - id: 41ad953b-d2e1-424a-97c1-eaebb6734927
+              color: pink
+              value: devtool
+            - id: dfe32dc6-09b9-44f9-bfb7-daaf5a9e44ce
+              color: blue
+              value: biztool
+          HWzx:
+            name: url
+            type: url
+          M[om:
+            name: "\U0001F44Dpros"
+            type: text
+          UWia:
+            name: evaluated?
+            type: formula
+            formula:
+              'true':
+                type: constant
+                value: "\U0001F33C"
+                value_type: string
+                result_type: text
+              type: conditional
+              'false':
+                type: constant
+                value: ''
+                value_type: string
+                result_type: text
+              condition:
+                args:
+                - args:
+                  - id: ")+|-"
+                    name: "\U0001F44Econs"
+                    type: property
+                    result_type: text
+                  name: empty
+                  type: function
+                  result_type: checkbox
+                - args:
+                  - id: M[om
+                    name: "\U0001F44Dpros"
+                    type: property
+                    result_type: text
+                  name: empty
+                  type: function
+                  result_type: checkbox
+                name: and
+                type: operator
+                operator: and
+                result_type: checkbox
+              result_type: text
+          dGj0:
+            name: biz for
+            type: multi_select
+            options:
+            - id: 79efa0b6-6814-41b8-ad0d-9d15f40bcf94
+              color: purple
+              value: contact form management
+            - id: a499d1e5-694c-4716-a31e-3bbb53d2b8b1
+              color: blue
+              value: snippet code manager
+            - id: 355c297e-91e2-4a46-9cdf-fcef6e65ce6b
+              color: red
+              value: project management
+            - id: fbe3c9bb-f6cd-4bbf-8098-a56fffe27ad8
+              color: pink
+              value: CI/CD
+            - id: 0a420143-fd6f-446d-90eb-a82c0d6c0531
+              color: yellow
+              value: SEO
+            - id: 5e7d99cc-6d44-401f-a280-539521f27382
+              color: default
+              value: calendar
+            - id: ab94eabe-50bb-4cca-9b1b-0d0d5ceceea1
+              color: brown
+              value: data entry
+            - id: 53e663fa-4425-453e-88cf-8687cb275d0c
+              color: orange
+              value: design
+            - id: 11725be6-6759-4c4d-b6c0-d3202a2c5278
+              color: green
+              value: Note taking
+            - id: 767b4d98-8aef-4397-bf22-3d90b394d7da
+              color: gray
+              value: cms
+          iG(y:
+            name: Added
+            type: created_time
+          oSKF:
+            name: notes
+            type: text
+          r[e(:
+            name: devFields
+            type: multi_select
+            options:
+            - id: a9d68c2e-415e-4334-9cd3-7fb7a78f84e0
+              color: red
+              value: typescript-introspect
+            - id: 6d6e1c4c-a124-44d2-9016-9a1cdcfe0c77
+              color: purple
+              value: mobile
+            - id: 4f248dbf-650e-4607-9b62-3e0e1959df28
+              color: default
+              value: code-formating
+            - id: d2a9a468-0852-4fa1-8141-2ae08f54e5a8
+              color: gray
+              value: advanced-editor
+            - id: b8c45456-fb4f-4682-93d5-e917b87582b3
+              color: yellow
+              value: code editor
+            - id: 22e438a5-4fd9-4594-8a00-5d0d9f42fb8d
+              color: brown
+              value: dashboard display
+            - id: 5e43ef34-4761-4d85-9254-75730961dab6
+              color: green
+              value: testing
+            - id: bc93ea0b-126f-4d96-ac06-69b222ee67a7
+              color: blue
+              value: graphql
+          title:
+            name: Name
+            type: title
+        icon: "\U0001F4E6"
+        format:
+          collection_page_properties:
+          - visible: false
+            property: HWzx
+          - visible: false
+            property: oSKF
+          - visible: false
+            property: ")Yg>"
+          - visible: false
+            property: iG(y
+          - visible: false
+            property: AL4Q
+          - visible: false
+            property: UWia
+          - visible: false
+            property: M[om
+          - visible: false
+            property: ")+|-"
+          - visible: true
+            property: dGj0
+          - visible: false
+            property: r[e(
+        parent_id: 21c792af-b954-4a61-a753-9626cde575a1
+        parent_table: block
+        alive: true
+    d5ecb9ea-1420-4849-bcbc-f861fac50fba:
+      role: editor
+      value:
+        id: d5ecb9ea-1420-4849-bcbc-f861fac50fba
+        version: 213
+        name:
+        - - " Habit DB"
+        schema:
+          "%7k\\":
+            name: "\U0001F31F insanity"
+            type: checkbox
+          "';$k":
+            name: Day Planner/Journal
+            type: checkbox
+          ")NGR":
+            name: "=========="
+            type: text
+          "-Pzf":
+            name: "\U0001F9E0overwhelm"
+            type: checkbox
+            options:
+            - id: fdb7048e-6f4a-476a-976d-95470ff6841a
+              color: red
+              value: '0'
+            - id: 3dc91964-b829-4ce6-8049-3cfae150435f
+              color: orange
+              value: '1'
+            - id: 5e1cf6f6-a222-4d62-b715-6d877211f6cf
+              color: yellow
+              value: '2'
+            - id: 34bfca15-71cd-44d2-bde4-160f0ac071c3
+              color: yellow
+              value: '3'
+            - id: bbce9a19-4f6e-4932-856e-c2e27ec1323b
+              color: green
+              value: '4'
+            - id: fc357cc5-441d-4a5a-83f6-1f893810d666
+              color: green
+              value: '5'
+          7R9[:
+            name: "% of Planned Output Completed"
+            type: number
+            number_format: percent
+          8"un:
+            name: Date
+            type: created_time
+          ":^I!":
+            name: Schedule Tomorrow
+            type: checkbox
+          "<6gj":
+            name: "\U0001F4A2badsleep"
+            type: checkbox
+            options:
+            - id: c3bbeb50-4b1f-4fe8-8cb4-044cebb48a02
+              color: orange
+              value: good
+            - id: c2e9a685-1194-41a6-8f33-1343d9f39255
+              color: blue
+              value: bad
+          ?R"/:
+            name: prepared tom
+            type: checkbox
+          A\[r:
+            name: Mindset
+            type: checkbox
+          DLL5:
+            name: time spent working
+            type: select
+            options:
+            - id: 6d6d7875-98c9-45f9-8999-162a33ae28d5
+              color: gray
+              value: 30min<
+            - id: 72d2eac4-bbf5-454a-97d4-197de10f8faf
+              color: green
+              value: 6h
+            - id: b95a71f7-7e6e-4197-9262-d6da64c2b728
+              color: brown
+              value: 7h
+          EQFr:
+            name: food notes
+            type: text
+          P7UE:
+            name: Improvements
+            type: text
+          RvE*:
+            name: Workout
+            type: checkbox
+          "[HTV":
+            name: Visualization
+            type: checkbox
+          "\\Bf#":
+            name: "\U0001F957 no desert"
+            type: checkbox
+          "^9sL":
+            name: Day
+            type: formula
+            formula:
+              args:
+              - id: 8"un
+                name: Date
+                type: property
+                result_type: date
+              - type: constant
+                value: dddd
+                value_type: string
+                result_type: text
+              name: formatDate
+              type: function
+              result_type: text
+          e(9]:
+            name: quality of work
+            type: select
+            options:
+            - id: SM:m
+              color: red
+              value: '0'
+            - id: 6Odt
+              color: red
+              value: '0.5'
+            - id: bf937e5a-c1dd-4007-82e2-d736e028debd
+              color: gray
+              value: N.D
+            - id: 3dbc0bd3-ae00-497f-afcc-482510ec564f
+              color: purple
+              value: '1.5'
+            - id: 21534932-62fd-42c0-ab50-d97cfb2c9aa9
+              color: orange
+              value: '2.0'
+            - id: 73b2d627-9831-4963-ae9a-1c53f26f7bf7
+              color: green
+              value: '2.5'
+            - id: cbd4d5eb-82b4-4cab-b935-06b05e35e778
+              color: default
+              value: '1'
+            number_format: percent
+          g!Z[:
+            name: "\U0001F579️geek"
+            type: checkbox
+          lHC':
+            name: 'Planning: Weekly/Monthly (to ensure not going too long without
+              week/month planning)'
+            type: multi_select
+            options:
+            - id: 130a8d39-9356-4d93-96a9-7b1b5ecb11c3
+              color: orange
+              value: Weekly Review
+            - id: c6e74272-0fdc-487d-9810-8d0b2f45d776
+              color: blue
+              value: Monthly Review
+            - id: f24d5ec2-534e-48f2-ae41-a85b50a9f172
+              color: purple
+              value: Quarterly Review
+            - id: e2a34b3f-de33-4e4f-9506-29b655d7cf53
+              color: green
+              value: Annual Review
+          v$va:
+            name: poids
+            type: number
+            number_format: number
+          v)@7:
+            name: Diet
+            type: select
+            options:
+            - id: "!{8'"
+              color: yellow
+              value: '3'
+            - id: I7>m
+              color: yellow
+              value: '2.5'
+            - id: 59a935c3-a1ef-4df4-a7eb-d9fbffaae65c
+              color: yellow
+              value: '3.5'
+            - id: 0d166aa2-9485-4d18-835b-8f160c262d8c
+              color: red
+              value: '1.5'
+            - id: 8d408a6f-0951-4bf7-9a54-e1696ed48864
+              color: gray
+              value: '2'
+            - id: 54051ec6-e519-48c0-8b57-d5f38d4367eb
+              color: blue
+              value: '1'
+            number_format: number
+          v`Z2:
+            name: Read
+            type: select
+            options:
+            - id: 9e6ab455-c154-4eec-bbd3-2a2fee10a53b
+              color: gray
+              value: '4'
+            - id: 78f20327-16b6-48de-a233-c6a49db35945
+              color: green
+              value: '3'
+            - id: 8a0ae0f1-93f3-4a4f-a324-6ab7b8c9001a
+              color: green
+              value: '2'
+            - id: d323fa1d-f468-4c78-80fb-44114a986c31
+              color: yellow
+              value: '1'
+            - id: f40c7d78-0470-4589-8007-2d340b66b39a
+              color: red
+              value: '0'
+            - id: ed619da2-db35-4bae-9c3d-f022462b10a4
+              color: brown
+              value: '0.5'
+          y`^<:
+            name: Meditation
+            type: checkbox
+          "{ag^":
+            name: Activity
+            type: select
+            options:
+            - id: 9b702959-7e68-4c3f-8a83-3461cfc40fd2
+              color: red
+              value: '1'
+            - id: e10ec9ba-5a03-4ee2-9643-c2f6f4195e07
+              color: orange
+              value: '2'
+            - id: 7de84efb-37b9-4545-a726-6df828046a38
+              color: orange
+              value: '2.5'
+            - id: 33fc522e-cf3b-484f-802d-e1cf3ae2e180
+              color: yellow
+              value: '3'
+          "}~3>":
+            name: "\U0001F9B7 brush"
+            type: checkbox
+          title:
+            name: Open
+            type: title
+        icon: "\U0001F34E"
+        cover: "/images/page-cover/gradients_2.png"
+        format:
+          '0':
+            visible: false
+            property: v)@7
+          '1':
+            visible: false
+            property: 8"un
+          '2':
+            visible: false
+            property: bG_`
+          '3':
+            visible: false
+            property: "*0G#"
+          '4':
+            visible: false
+            property: 5]^&
+          '5':
+            visible: false
+            property: "{OTr"
+          '6':
+            visible: false
+            property: hD"6
+          '7':
+            visible: false
+            property: FDh=
+          '8':
+            visible: true
+            property: "*c0P"
+          '9':
+            visible: false
+            property: e\~)
+          '10':
+            visible: false
+            property: mAMx
+          '11':
+            visible: false
+            property: _n="
+          '12':
+            visible: false
+            property: Imj`
+          '13':
+            visible: false
+            property: IKd%
+          '14':
+            visible: false
+            property: "+w_^"
+          '15':
+            visible: false
+            property: 6V2{
+          '16':
+            visible: false
+            property: m;JG
+          '17':
+            visible: false
+            property: v!M"
+          '18':
+            visible: false
+            property: v$va
+          '19':
+            visible: false
+            property: O7(H
+          '20':
+            visible: false
+            property: ";t(j"
+          '21':
+            visible: false
+            property: xz-p
+          '22':
+            visible: false
+            property: NG\B
+          '23':
+            visible: false
+            property: y`^<
+          '24':
+            visible: false
+            property: "[HTV"
+          '25':
+            visible: false
+            property: "';$k"
+          '26':
+            visible: false
+            property: A\[r
+          '27':
+            visible: false
+            property: RvE*
+          '28':
+            visible: false
+            property: v`Z2
+          '29':
+            visible: false
+            property: ":^I!"
+          '30':
+            visible: false
+            property: e(9]
+          '31':
+            visible: false
+            property: 7R9[
+          '32':
+            visible: true
+            property: P7UE
+          '33':
+            visible: false
+            property: lHC'
+          '34':
+            visible: true
+            property: "^9sL"
+          collection_page_properties:
+          - visible: false
+            property: v)@7
+          - visible: false
+            property: v$va
+          - visible: false
+            property: v`Z2
+          - visible: false
+            property: "\\Bf#"
+          - visible: false
+            property: "}~3>"
+          - visible: false
+            property: "%7k\\"
+          - visible: true
+            property: P7UE
+          - visible: false
+            property: "{ag^"
+          - visible: false
+            property: ")NGR"
+          - visible: false
+            property: e\~)
+          - visible: false
+            property: mAMx
+          - visible: true
+            property: "*c0P"
+          - visible: false
+            property: FDh=
+          - visible: false
+            property: hD"6
+          - visible: false
+            property: "{OTr"
+          - visible: false
+            property: 5]^&
+          - visible: false
+            property: "*0G#"
+          - visible: false
+            property: y`^<
+          - visible: false
+            property: "[HTV"
+          - visible: false
+            property: "';$k"
+          - visible: false
+            property: A\[r
+          - visible: false
+            property: RvE*
+          - visible: false
+            property: ":^I!"
+          - visible: false
+            property: _n="
+          - visible: false
+            property: e(9]
+          - visible: false
+            property: 7R9[
+          - visible: false
+            property: lHC'
+          - visible: true
+            property: "^9sL"
+          - visible: false
+            property: 8"un
+        parent_id: ae7f5c8e-7311-4cb8-ae4d-7e92fba6c622
+        parent_table: block
+        alive: true
+        file_ids:
+        - 16ecffd2-9bde-466d-af5e-1ef1a5aaffe0
+        - 93daaa3c-8a7a-4953-a601-786bde6f6b66
+        - 6ce5c0f0-e5d6-4166-a185-a2a940ce1d66
+        copied_from: 7f55b703-3bc8-484d-8ae8-c9cfa9fbf556
+        template_pages:
+        - 9f322d51-5b62-4498-b233-9987163aef8c
+    e11cccf7-6c6c-48e5-808a-2127e6d1191d:
+      role: editor
+      value:
+        id: e11cccf7-6c6c-48e5-808a-2127e6d1191d
+        version: 43
+        name:
+        - - Value Goals DB
+        schema:
+          "&,zj":
+            name: priority
+            type: select
+            options:
+            - id: b9a55aa3-7db3-4dfa-b0a3-479b38d8a0f0
+              color: red
+              value: 1st priority
+            - id: 5bceb214-5205-442f-8079-339e45623e0e
+              color: default
+              value: 2nd priority
+            - id: bd06b7a6-45f0-4e2c-b04e-bb30a91c76b1
+              color: blue
+              value: 3rd priority
+          XW)|:
+            name: status
+            type: select
+            options:
+            - id: 3c253502-e80e-457f-ba77-9d9a70f8847e
+              color: green
+              value: Underway
+            - id: 15b9bf61-c753-4fae-a5bb-37ee1cd4627d
+              color: orange
+              value: Waiting
+          "^5{q":
+            name: Category
+            type: select
+            options:
+            - id: de06b448-1706-4df6-bd19-958b686e9625
+              color: pink
+              value: business
+            - id: 1bf05cb8-df31-4753-9517-3d7c22070341
+              color: orange
+              value: health
+          k\!>:
+            name: Pillars
+            type: relation
+            property: zBU\
+            collection_id: d1c0a8e7-0665-41aa-b475-39202142e3b7
+          m&@#:
+            name: Goal Outcomes
+            type: relation
+            property: "},j:"
+            collection_id: 6b1af6bf-7be3-41d8-a2b9-c65511a21115
+          uRR^:
+            name: challenges (to overcome)
+            type: text
+          "{<IE":
+            name: Property 1
+            type: formula
+            formula:
+              id: k\!>
+              name: Pillars
+              type: property
+              result_type: text
+          title:
+            name: Name
+            type: title
+        format:
+          '0':
+            visible: false
+            property: "^5{q"
+          '1':
+            visible: false
+            property: m&@#
+          '2':
+            visible: false
+            property: k\!>
+          '3':
+            visible: false
+            property: uRR^
+          '4':
+            visible: false
+            property: "&,zj"
+          '5':
+            visible: false
+            property: XW)|
+          '6':
+            visible: true
+            property: "/X0%"
+          '7':
+            visible: true
+            property: "{<IE"
+          collection_page_properties:
+          - visible: false
+            property: "^5{q"
+          - visible: false
+            property: m&@#
+          - visible: false
+            property: k\!>
+          - visible: false
+            property: uRR^
+          - visible: false
+            property: "&,zj"
+          - visible: false
+            property: XW)|
+          - visible: true
+            property: "/X0%"
+          - visible: true
+            property: "{<IE"
+        parent_id: 007ac559-0787-4c70-9041-c047dcd6ca6d
+        parent_table: block
+        alive: true
+        template_pages:
+        - 7bc3cdea-79d5-4d7c-8ed4-e6d28a0aca2f
+    f0497ab3-fa55-4298-8eaf-c8e96fc10769:
+      role: editor
+      value:
+        id: f0497ab3-fa55-4298-8eaf-c8e96fc10769
+        version: 200
+        name:
+        - - Ressources DB
+        schema:
+          )Y7":
+            name: Score /5
+            type: select
+            options:
+            - id: 5c944de7-3f4b-4567-b3a1-fa2c71c540b6
+              color: default
+              value: "⭐️⭐️⭐️⭐️⭐️"
+            - id: b7307e35-c80a-4cb5-bb6b-6054523b394a
+              color: default
+              value: "⭐️⭐️⭐️⭐️"
+            - id: 9b1e1349-8e24-40ba-bbca-84a61296bc81
+              color: default
+              value: "⭐️⭐️⭐️"
+            - id: 66d3d050-086c-4a91-8c56-d55dc67e7789
+              color: default
+              value: "⭐️⭐️"
+            - id: d3782c76-0396-467f-928e-46bf0c9d5fba
+              color: default
+              value: "⭐️"
+          "*\\ft":
+            name: priority
+            type: select
+            options:
+            - id: 11bfd4d5-073d-41f4-8d27-39117670736c
+              color: pink
+              value: 1st
+            - id: 6e122869-1117-4634-94b7-91561693aeb1
+              color: brown
+              value: maybe one day
+            - id: e8116b5a-0929-4224-9506-0ebe383ad37b
+              color: blue
+              value: urgent-related-to-proj
+            - id: 800f4aa3-0fd7-426a-a4f0-18b68f6dada5
+              color: orange
+              value: 2nd
+          ">R~u":
+            name: keywords
+            type: multi_select
+            options:
+            - id: ba7e8e0f-3d08-42b6-a3b9-1c07519e29fb
+              color: brown
+              value: fullstack
+            - id: 5cde46ce-c54c-4764-ab8f-14e0ad08ed3a
+              color: red
+              value: graphql
+            - id: f9c805b0-781f-43d3-83ca-4e6b4ac4d386
+              color: yellow
+              value: tips
+            - id: ce7c00c6-f490-4404-96d9-f79719d44dc2
+              color: purple
+              value: frontend
+            - id: 9df093d0-a2e7-485b-87ba-fbeeda2f79ad
+              color: green
+              value: backend
+            - id: 0f81384e-9a6f-4074-94eb-4796c98a2f00
+              color: orange
+              value: noob
+            - id: 99966c97-4e54-4b80-91cf-10ec94a2c8da
+              color: gray
+              value: react
+            - id: 13b1a8c4-6155-4478-92eb-f489f1ceb118
+              color: pink
+              value: tricks
+            - id: c4c3ee0f-2370-4445-b984-4af6a50653f8
+              color: default
+              value: testing
+            - id: 7ca87f5c-fdeb-43f1-a2f1-93ce6ad15190
+              color: blue
+              value: professional
+            - id: b83f9f6d-83ee-45d0-aa1e-9d04545cddd0
+              color: default
+              value: code
+            - id: e94bb7f0-add4-4053-aa2d-4bd89298c066
+              color: yellow
+              value: business
+            - id: 7a130ed5-3edb-44f3-a2f6-e77b39524285
+              color: brown
+              value: auth
+            - id: 56cb7096-a4f9-4b41-b446-80202e2119d1
+              color: blue
+              value: divertissment
+            - id: e0058e74-fcf8-453a-9aff-030a68ed5c03
+              color: yellow
+              value: api
+            - id: 2640ad42-f7f8-41be-9f5c-a1ffebd98d1e
+              color: brown
+              value: notion
+            - id: 7cd38215-a9e3-4f45-9bde-2fc2b39891ca
+              color: green
+              value: productivity
+            - id: 9132f3b4-16b1-4b83-b604-cc90cad63835
+              color: orange
+              value: jwt
+            - id: 6317860a-b225-44d5-bd88-0eb95dd6dab6
+              color: gray
+              value: cors
+            - id: 368e5044-cb58-490f-9ab2-3837fbdd35f0
+              color: blue
+              value: design
+          "?\\25":
+            name: Summary
+            type: text
+          "?ex+":
+            name: Publishing/Release Date
+            type: date
+          D3lQ:
+            name: state
+            type: select
+            options:
+            - id: c5edbc15-1f5a-4370-8dba-c4fd27f3c609
+              color: default
+              value: read half
+            - id: 8f05f74c-4c42-4c67-a249-c5ced26f871c
+              color: purple
+              value: reading
+            - id: 622e11a8-8a9f-49f0-b531-00d00a8909d0
+              color: yellow
+              value: want to read
+            - id: 589a1b3f-f863-48bc-ab78-f71c1a21844d
+              color: blue
+              value: finished
+          VVMi:
+            name: Link
+            type: url
+          VYkB:
+            name: "============"
+            type: text
+          "`zz5":
+            name: Read
+            type: checkbox
+            options:
+            - id: 8c4a056e-6709-4dd1-ba58-d34d9480855a
+              color: yellow
+              value: Ready to Start
+            - id: 5925ba22-0126-4b58-90c7-b8bbb2c3c895
+              color: red
+              value: Reading
+            - id: 59aa9043-07b4-4bf4-8734-3164b13af44a
+              color: blue
+              value: Finished
+            - id: f961978d-02eb-4998-933a-33c2ec378564
+              color: red
+              value: Listening
+            - id: 1d450853-b27a-45e2-979f-448aa1bd35de
+              color: red
+              value: Watching
+          a<[Y:
+            name: kind
+            type: select
+            options:
+            - id: 1c31ae69-1bc9-4648-9121-58f402c78171
+              color: red
+              value: article
+            - id: d3cb853f-50d2-424e-8666-e1d25882ecda
+              color: purple
+              value: manifesto
+            - id: 452c8a7a-6b83-4154-874e-b7b6ee5d327f
+              color: pink
+              value: video
+            - id: 0a0e3af4-e6e0-469b-8bfa-75e191b723c8
+              color: yellow
+              value: tips
+            - id: e83bf494-f799-4e4d-84c3-0eb1aae98466
+              color: orange
+              value: reference
+            - id: 6b32669a-eeaf-4a67-b0e5-dafff68b379a
+              color: gray
+              value: book
+            - id: b0665212-7cdf-414f-abcc-6bcb291ef7bc
+              color: green
+              value: good look
+            - id: 3e553a2e-e7fe-4c6a-a3a5-b74ace8c1b03
+              color: brown
+              value: tech book
+            - id: 1cedf677-8a25-4ef3-b3d7-655785b2745c
+              color: gray
+              value: novel book
+            - id: cc6521c4-1690-4b90-986d-32fb2f53dfff
+              color: gray
+              value: biz book
+          c<}(:
+            name: Related to relation ressource (ressource)
+            type: relation
+            property: sEso
+            collection_id: d81c5273-a05c-4979-b5e3-b10c2413ff5f
+          oD}u:
+            name: added
+            type: created_time
+          qNw_:
+            name: Author
+            type: multi_select
+            options:
+            - id: ce705b6a-a023-49a0-b22f-947c7a34284b
+              color: default
+              value: Steve McConnell
+            - id: 2a066bda-30ed-434f-997c-f564274e5553
+              color: orange
+              value: Michael C. Feathers
+            - id: dae6c079-ed96-4653-8c13-8c3c6e2bf4c3
+              color: gray
+              value: John Fante
+            - id: 6fa13679-882d-4162-b61e-3b5b0dbebbd9
+              color: blue
+              value: Michel Houellebecq
+          title:
+            name: Name
+            type: title
+        icon: "\U0001F4D3"
+        cover: "/images/page-cover/gradients_3.png"
+        format:
+          '0':
+            visible: true
+            property: VVMi
+          '1':
+            visible: true
+            property: qNw_
+          '2':
+            visible: false
+            property: ">R~u"
+          '3':
+            visible: false
+            property: a<[Y
+          '4':
+            visible: true
+            property: D3lQ
+          '5':
+            visible: true
+            property: VYkB
+          '6':
+            visible: false
+            property: "?\\25"
+          '7':
+            visible: false
+            property: )Y7"
+          '8':
+            visible: false
+            property: "?ex+"
+          '9':
+            visible: false
+            property: "`zz5"
+          '10':
+            visible: true
+            property: oD}u
+          '11':
+            visible: false
+            property: "*\\ft"
+          '12':
+            visible: true
+            property: vm.t
+          collection_page_properties:
+          - visible: true
+            property: VVMi
+          - visible: false
+            property: ">R~u"
+          - visible: true
+            property: D3lQ
+          - visible: false
+            property: "?\\25"
+          - visible: false
+            property: "*\\ft"
+          - visible: true
+            property: VYkB
+          - visible: false
+            property: a<[Y
+          - visible: true
+            property: qNw_
+          - visible: false
+            property: )Y7"
+          - visible: false
+            property: "?ex+"
+          - visible: false
+            property: "`zz5"
+          - visible: true
+            property: oD}u
+        parent_id: e16420a9-ad09-48fc-9f09-6b5b5a6894d8
+        parent_table: block
+        alive: true
+        copied_from: a08c878c-34a8-4fe6-8bdb-6a2f173d6b23
+        template_pages:
+        - ef52a26f-3532-49f2-8fec-9abe42e1d969
+    f76022ae-8032-4b19-a44c-e319ede6903f:
+      role: editor
+      value:
+        id: f76022ae-8032-4b19-a44c-e319ede6903f
+        version: 18
+        name:
+        - - Bugs DB
+        schema:
+          "\"8Rl":
+            name: important
+            type: select
+          "'Tiq":
+            name: project
+            type: relation
+            property: "\"QA4"
+            collection_id: 080c4b06-021c-4fce-8948-2def329f1d80
+          "]b+Y":
+            name: description
+            type: text
+          "^i)H":
+            name: area of focus
+            type: text
+          title:
+            name: Name
+            type: title
+        icon: "\U0001F41E"
+        parent_id: 096e3f05-6334-4fec-aaf1-0f4469b5c834
+        parent_table: block
+        alive: true
+    1a4abfdb-5e92-4066-81d3-0d84a4755b0b:
+      role: editor
+      value:
+        id: 1a4abfdb-5e92-4066-81d3-0d84a4755b0b
+        version: 33
+        name:
+        - - Features
+        schema:
+          "+UL>":
+            name: Fields
+            type: multi_select
+          ",6BI":
+            name: Column
+            type: text
+          k9U>:
+            name: priority
+            type: select
+          z/]F:
+            name: status
+            type: select
+            options:
+            - id: e4c7ecab-a496-4cab-817c-a3926f6a52e0
+              color: purple
+              value: done but need verif
+            - id: 39243aa7-1042-46ba-b490-eb2f76075686
+              color: green
+              value: in progress
+            - id: 40a0aff1-2dbf-4ae7-8182-9dd1b5d28f39
+              color: red
+              value: not started
+            - id: 009995a2-7e86-4bb5-aa5d-d0ec6cdf5d8c
+              color: brown
+              value: done
+          title:
+            name: Name
+            type: title
+        format:
+          collection_page_properties:
+          - visible: true
+            property: Wn"!
+          - visible: true
+            property: pb"*
+        parent_id: dc800884-af0c-4d75-9d2e-a0ffddada85f
+        parent_table: block
+        alive: true
+  block:
+    0a63894e-9a9a-4b80-adc9-45a5ccc70663:
+      role: editor
+      value:
+        id: 0a63894e-9a9a-4b80-adc9-45a5ccc70663
+        version: 103
+        type: collection_view_page
+        view_ids:
+        - cce01c91-38d6-416d-a96d-fdb967635d24
+        collection_id: e815ddde-ed2f-4f26-ad34-623187014228
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1587571212197
+        last_edited_time: 1588504440000
+        parent_id: 46ee3770-dcad-4c66-ae90-06d2cc2bf489
+        parent_table: space
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    2e12e3f9-4f7b-41a1-80a3-68c7113a7991:
+      role: editor
+      value:
+        id: 2e12e3f9-4f7b-41a1-80a3-68c7113a7991
+        version: 28
+        type: collection_view_page
+        view_ids:
+        - 6ad27ee4-4d18-4ad0-9828-7d55d3bd1f20
+        collection_id: ed9db2da-ef94-4d13-adc2-d29a3ececfe0
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1587573201434
+        last_edited_time: 1588116360000
+        parent_id: 46ee3770-dcad-4c66-ae90-06d2cc2bf489
+        parent_table: space
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    5d27c5c4-663a-4928-b6b5-c85832198d85:
+      role: editor
+      value:
+        id: 5d27c5c4-663a-4928-b6b5-c85832198d85
+        version: 54
+        type: collection_view_page
+        view_ids:
+        - ab57e9ed-9844-482d-980d-5018f841a938
+        collection_id: 3bb26d4b-2eb1-4801-8acf-8204e50c702c
+        format:
+          page_full_width: true
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588671431605
+        last_edited_time: 1588701180000
+        parent_id: 46ee3770-dcad-4c66-ae90-06d2cc2bf489
+        parent_table: space
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    db5fd845-220f-457d-a792-0511cef67e0e:
+      role: editor
+      value:
+        id: db5fd845-220f-457d-a792-0511cef67e0e
+        version: 16
+        type: collection_view_page
+        view_ids:
+        - befed87e-7a46-46e2-9038-5f1a83286b81
+        - df79e589-8ab0-4e2f-9759-c06784afff76
+        - 748c7b6a-43f1-484c-90fd-c47202d26c1f
+        - 21f7cc49-d85b-4076-a4bc-a43f11a8d4cf
+        - 6337e301-a066-40c1-92fd-13578901f2cd
+        - cfae84ff-31d1-4928-a91f-3af573d261b8
+        - 47f64316-a47d-4741-89d9-c5c1e5a3107c
+        - 0508c9c9-d6e2-4110-8f66-dac70788a2df
+        - bce6100e-6e49-4069-8413-bee05f3a2b06
+        collection_id: 3190c6a7-6539-46fa-bbf9-1037d725ab8c
+        format:
+          block_locked: false
+          block_locked_by: 204e031f-f12d-445c-ba1d-df7a7bbebfbc
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_by: bd3552d4-2e14-448e-b60d-8d0fe921a4ae
+        created_time: 1588685256831
+        last_edited_by: bd3552d4-2e14-448e-b60d-8d0fe921a4ae
+        last_edited_time: 1588687380000
+        parent_id: 46ee3770-dcad-4c66-ae90-06d2cc2bf489
+        parent_table: space
+        alive: true
+        copied_from: fa9b0936-33c0-479f-886f-db857f57f9b0
+        created_by_table: notion_user
+        created_by_id: 33e41f0b-9c5f-4241-9f62-3e90559ab8f2
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    5840db9b-6404-49d5-a20e-1c884025eeb6:
+      role: editor
+      value:
+        id: 5840db9b-6404-49d5-a20e-1c884025eeb6
+        version: 34
+        type: collection_view_page
+        view_ids:
+        - 0c85ece9-f052-4508-9a4e-210e97cf20c0
+        collection_id: ff2e4c12-34b4-41d7-b313-27b8ebfeb297
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588677504198
+        last_edited_time: 1588687380000
+        parent_id: 46ee3770-dcad-4c66-ae90-06d2cc2bf489
+        parent_table: space
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    612f343a-ede0-4396-a120-d4e568d65eff:
+      role: editor
+      value:
+        id: 612f343a-ede0-4396-a120-d4e568d65eff
+        version: 117
+        type: collection_view
+        view_ids:
+        - e8314aa2-b106-4f35-851c-9de377e95382
+        collection_id: 080c4b06-021c-4fce-8948-2def329f1d80
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588175520215
+        last_edited_time: 1588927740000
+        parent_id: a47b69ff-5323-4073-b0d2-2099bf3e42e0
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    a47b69ff-5323-4073-b0d2-2099bf3e42e0:
+      role: editor
+      value:
+        id: a47b69ff-5323-4073-b0d2-2099bf3e42e0
+        version: 29
+        type: toggle
+        properties:
+          title:
+          - - Projects
+        content:
+        - 612f343a-ede0-4396-a120-d4e568d65eff
+        - 0414c404-c8b4-401f-98ac-168718d7ccc6
+        created_time: 1588683003750
+        last_edited_time: 1588758480000
+        parent_id: b491c6cd-05f0-4a4d-a7c4-ddc33e8a4da7
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    b491c6cd-05f0-4a4d-a7c4-ddc33e8a4da7:
+      role: editor
+      value:
+        id: b491c6cd-05f0-4a4d-a7c4-ddc33e8a4da7
+        version: 105
+        type: page
+        properties:
+          title:
+          - - Overview
+        content:
+        - c13fea9f-80da-433a-82a3-dd41f74ad2dc
+        - 0aa9ce8c-ba62-447c-8a47-fecc7a2aed44
+        - a29bffb8-6b72-43b4-8053-e5de4c2d5258
+        - 6826449a-7e61-47aa-832f-ea99b76cfded
+        - caff90af-6b88-4321-8812-4fedd6e0583e
+        - 1974ac48-60b9-4ce2-8eb9-cda932a23b9c
+        - a47b69ff-5323-4073-b0d2-2099bf3e42e0
+        - 0eae3987-2624-4941-82b5-378733ddfe43
+        - c80de018-e320-4eac-bd5f-ef4cedb7af27
+        - 41cd99a9-a518-456d-9f24-b03f4b6b8e40
+        format:
+          page_icon: "\U0001F304"
+          page_cover: "/images/page-cover/gradients_4.png"
+          page_full_width: true
+          page_cover_position: 0.1
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588682940000
+        last_edited_time: 1588794000000
+        parent_id: 4d57b063-3c05-48c2-a1e0-355e313f76e5
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    4d57b063-3c05-48c2-a1e0-355e313f76e5:
+      role: editor
+      value:
+        id: 4d57b063-3c05-48c2-a1e0-355e313f76e5
+        version: 49
+        type: page
+        properties:
+          title:
+          - - Dashboard
+        content:
+        - 036c2fd0-fcc9-4c2c-a233-2699d983662c
+        - f81cb298-29fa-47a6-b3f5-71e2b6021f60
+        - 354b7eca-0fb1-446c-917a-2e59012112d0
+        - b491c6cd-05f0-4a4d-a7c4-ddc33e8a4da7
+        - 0c691e82-973a-4972-8e41-4628254484c4
+        - 0cda0408-2ba7-4ff9-8f0f-9e9f519040dc
+        - bf303c2d-e03e-4083-83de-3ae1d124b7b2
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588793940000
+        last_edited_time: 1588934220000
+        parent_id: 46ee3770-dcad-4c66-ae90-06d2cc2bf489
+        parent_table: space
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    26482c23-37f4-4099-adf8-64d88cfcf877:
+      role: editor
+      value:
+        id: 26482c23-37f4-4099-adf8-64d88cfcf877
+        version: 10
+        type: collection_view
+        view_ids:
+        - 84b5f6ec-ecf1-410d-a4df-4f028854803c
+        collection_id: d1c0a8e7-0665-41aa-b475-39202142e3b7
+        created_time: 1588711519029
+        last_edited_time: 1588711740000
+        parent_id: c13fea9f-80da-433a-82a3-dd41f74ad2dc
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    c13fea9f-80da-433a-82a3-dd41f74ad2dc:
+      role: editor
+      value:
+        id: c13fea9f-80da-433a-82a3-dd41f74ad2dc
+        version: 15
+        type: toggle
+        properties:
+          title:
+          - - Pillars
+        content:
+        - 26482c23-37f4-4099-adf8-64d88cfcf877
+        created_time: 1588711524656
+        last_edited_time: 1588711500000
+        parent_id: b491c6cd-05f0-4a4d-a7c4-ddc33e8a4da7
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    c4b68bcd-1d17-4763-8090-3e71ecf767e8:
+      role: editor
+      value:
+        id: c4b68bcd-1d17-4763-8090-3e71ecf767e8
+        version: 10
+        type: collection_view_page
+        view_ids:
+        - 5d007bed-8c1a-43e4-9c3d-dc5155132bb3
+        - 76040737-7094-4c17-9a64-eecf4f427f54
+        - 3442c913-0f20-4d73-91e4-571ead9d1941
+        - 30e72c79-c7b8-4ca4-9ae3-152221dc70b9
+        - 9b6d177d-925a-4009-8390-a0ef990b02f9
+        - fddac52b-5f14-464c-a2f6-34a49a59fdc6
+        - 0b695aa7-d107-4409-a952-dac41cde11ef
+        - 88499f96-814b-4d4c-b1cd-b538a445aadb
+        - 194e5971-fe30-457c-b034-e4a5dc016012
+        collection_id: 10d43730-0d68-476e-af3a-39e9033498fd
+        format:
+          block_locked: false
+          block_locked_by: 204e031f-f12d-445c-ba1d-df7a7bbebfbc
+        created_by: bd3552d4-2e14-448e-b60d-8d0fe921a4ae
+        created_time: 1588758601965
+        last_edited_by: bd3552d4-2e14-448e-b60d-8d0fe921a4ae
+        last_edited_time: 1588758600000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        copied_from: 859d355d-3315-45de-a418-d962cd180373
+        created_by_table: notion_user
+        created_by_id: 33e41f0b-9c5f-4241-9f62-3e90559ab8f2
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    0c691e82-973a-4972-8e41-4628254484c4:
+      role: editor
+      value:
+        id: 0c691e82-973a-4972-8e41-4628254484c4
+        version: 105
+        type: page
+        properties:
+          title:
+          - - Databases
+        content:
+        - 6eebdfbe-96e1-443c-9391-cac50848980d
+        - e16420a9-ad09-48fc-9f09-6b5b5a6894d8
+        - 21c792af-b954-4a61-a753-9626cde575a1
+        - ae7f5c8e-7311-4cb8-ae4d-7e92fba6c622
+        - 34826ddf-baac-498d-9228-4241c7e68069
+        - 9865dd37-bca4-44e7-917f-f6de03bbb45e
+        - 096e3f05-6334-4fec-aaf1-0f4469b5c834
+        - 46bf32ae-2c75-41dd-b25b-3f31840221a4
+        - b8cfad40-172d-4556-8c2c-201b6c405f6a
+        - e076b9ed-1999-45f8-8004-68fcfd0e1e30
+        - 97668ae6-ea49-481e-8b4a-c0e605440cce
+        - 007ac559-0787-4c70-9041-c047dcd6ca6d
+        - ebabd2da-b66d-4f84-869b-8f45faa3b262
+        - 06eed80e-efa5-4bd9-b047-c67c4ba79ebd
+        - 74c39091-cd22-473d-9389-71ca44bb046f
+        - c4b68bcd-1d17-4763-8090-3e71ecf767e8
+        format:
+          page_icon: "\U0001F4DA"
+          page_cover: https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb
+          page_full_width: false
+          page_cover_position: 0.5
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588533780000
+        last_edited_time: 1588794000000
+        parent_id: 4d57b063-3c05-48c2-a1e0-355e313f76e5
+        parent_table: block
+        alive: true
+        file_ids:
+        - fbb1e73e-8f41-4175-a595-9b675e58d3f2
+        - b96421a9-67eb-406f-b81b-1f032d51fd9e
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    e076b9ed-1999-45f8-8004-68fcfd0e1e30:
+      role: editor
+      value:
+        id: e076b9ed-1999-45f8-8004-68fcfd0e1e30
+        version: 34
+        type: collection_view_page
+        view_ids:
+        - cfa9b83a-c772-4398-8069-41b395ef5027
+        collection_id: 190964ff-a717-4873-88cd-7c8310d4027e
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588624472815
+        last_edited_time: 1588669020000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    97668ae6-ea49-481e-8b4a-c0e605440cce:
+      role: editor
+      value:
+        id: 97668ae6-ea49-481e-8b4a-c0e605440cce
+        version: 76
+        type: collection_view_page
+        view_ids:
+        - 1c70f330-3ef6-4094-a8c6-2fed9491e40d
+        collection_id: 6b1af6bf-7be3-41d8-a2b9-c65511a21115
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588671568671
+        last_edited_time: 1588714500000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    46bf32ae-2c75-41dd-b25b-3f31840221a4:
+      role: editor
+      value:
+        id: 46bf32ae-2c75-41dd-b25b-3f31840221a4
+        version: 84
+        type: collection_view_page
+        view_ids:
+        - 23c98150-9fe1-4dd5-82fd-012e469338b4
+        collection_id: 721c7d6b-86a4-45b5-9282-a77df2c7c7fe
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588164163835
+        last_edited_time: 1588534860000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    06eed80e-efa5-4bd9-b047-c67c4ba79ebd:
+      role: editor
+      value:
+        id: 06eed80e-efa5-4bd9-b047-c67c4ba79ebd
+        version: 23
+        type: collection_view_page
+        view_ids:
+        - d73d3854-74ba-473d-a6de-22775a29e3bd
+        collection_id: 771c4b5b-1aab-4410-aaea-c3fc4648c3d0
+        created_time: 1588686510134
+        last_edited_time: 1588687440000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    9865dd37-bca4-44e7-917f-f6de03bbb45e:
+      role: editor
+      value:
+        id: 9865dd37-bca4-44e7-917f-f6de03bbb45e
+        version: 107
+        type: collection_view_page
+        view_ids:
+        - 04a88965-cb65-4e3d-86be-3cfbfdeeb207
+        - 05b2b78b-0f29-4c89-8b4b-0a09e431dc57
+        - 95f965bb-9772-4a5f-90b3-dde9b3f0fb75
+        - 9c7f70f9-9000-4c1d-ac10-a63406bb1e1f
+        - d11d8ff0-bcca-41ca-bc68-793365d3c983
+        collection_id: 7a98d4cd-8c6d-4653-91fc-8cb8a8ba18c2
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_by: 952fa163-bd75-41ca-8186-2f424d34fb15
+        created_time: 1588083955113
+        last_edited_by: 952fa163-bd75-41ca-8186-2f424d34fb15
+        last_edited_time: 1588794300000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        copied_from: a562e691-a15b-4e11-af25-c16ad9a10b43
+        created_by_table: notion_user
+        created_by_id: 952fa163-bd75-41ca-8186-2f424d34fb15
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    34826ddf-baac-498d-9228-4241c7e68069:
+      role: editor
+      value:
+        id: 34826ddf-baac-498d-9228-4241c7e68069
+        version: 39
+        type: collection_view_page
+        view_ids:
+        - 5672e5b5-8205-4f05-8174-ee10e1e75508
+        - 848fc5f2-513c-40b5-97d4-8bffa1441060
+        collection_id: a5c12e85-dba4-401b-8063-b0194b0d2978
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588512160564
+        last_edited_time: 1588534080000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    21c792af-b954-4a61-a753-9626cde575a1:
+      role: editor
+      value:
+        id: 21c792af-b954-4a61-a753-9626cde575a1
+        version: 68
+        type: collection_view_page
+        view_ids:
+        - 90c3b9bb-4a23-4794-9d82-ff584adc0574
+        collection_id: adae104b-9e49-4013-a472-0e7fb67f05cf
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588113926409
+        last_edited_time: 1588616100000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    ae7f5c8e-7311-4cb8-ae4d-7e92fba6c622:
+      role: editor
+      value:
+        id: ae7f5c8e-7311-4cb8-ae4d-7e92fba6c622
+        version: 129
+        type: collection_view_page
+        view_ids:
+        - 7a6ac20b-8399-4278-9b21-09809cebc1c8
+        - 2ec50451-d3e1-439b-a5f6-f58b2f1c95ce
+        collection_id: d5ecb9ea-1420-4849-bcbc-f861fac50fba
+        format:
+          page_cover_position: 0.8
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_by: 952fa163-bd75-41ca-8186-2f424d34fb15
+        created_time: 1587656873192
+        last_edited_by: 952fa163-bd75-41ca-8186-2f424d34fb15
+        last_edited_time: 1588922340000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        copied_from: 76281533-64d0-4697-885d-6821abaf9d9d
+        created_by_table: notion_user
+        created_by_id: 952fa163-bd75-41ca-8186-2f424d34fb15
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    007ac559-0787-4c70-9041-c047dcd6ca6d:
+      role: editor
+      value:
+        id: 007ac559-0787-4c70-9041-c047dcd6ca6d
+        version: 49
+        type: collection_view_page
+        view_ids:
+        - 862fe5ff-b80e-4ecc-b434-205940103a13
+        collection_id: e11cccf7-6c6c-48e5-808a-2127e6d1191d
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588671551943
+        last_edited_time: 1588714320000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    e16420a9-ad09-48fc-9f09-6b5b5a6894d8:
+      role: editor
+      value:
+        id: e16420a9-ad09-48fc-9f09-6b5b5a6894d8
+        version: 148
+        type: collection_view_page
+        view_ids:
+        - fbd29411-50d2-42cd-89ac-ca1f1d842300
+        collection_id: f0497ab3-fa55-4298-8eaf-c8e96fc10769
+        format:
+          page_cover_position: 0.4
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_by: adf1976a-dd9f-4277-9521-219f43715666
+        created_time: 1587585924490
+        last_edited_by: adf1976a-dd9f-4277-9521-219f43715666
+        last_edited_time: 1588588560000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        copied_from: fa456a1a-461e-48e9-9d56-d1f1e8f26fd3
+        created_by_table: notion_user
+        created_by_id: adf1976a-dd9f-4277-9521-219f43715666
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    096e3f05-6334-4fec-aaf1-0f4469b5c834:
+      role: editor
+      value:
+        id: 096e3f05-6334-4fec-aaf1-0f4469b5c834
+        version: 30
+        type: collection_view_page
+        view_ids:
+        - 97c9d7d0-bea9-4061-8a2d-de4852739221
+        collection_id: f76022ae-8032-4b19-a44c-e319ede6903f
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1588529820708
+        last_edited_time: 1588534860000
+        parent_id: 0c691e82-973a-4972-8e41-4628254484c4
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    dc800884-af0c-4d75-9d2e-a0ffddada85f:
+      role: editor
+      value:
+        id: dc800884-af0c-4d75-9d2e-a0ffddada85f
+        version: 14
+        type: collection_view
+        view_ids:
+        - 95c57141-10df-44a7-b2a2-d42848b733c3
+        - c4ed353e-3916-4123-b53c-140a21a3d633
+        collection_id: 1a4abfdb-5e92-4066-81d3-0d84a4755b0b
+        created_time: 1588584818158
+        last_edited_time: 1588585380000
+        parent_id: 5d2c8e9a-232a-43d2-9ab0-13a65311fd93
+        parent_table: block
+        alive: true
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+    5d2c8e9a-232a-43d2-9ab0-13a65311fd93:
+      role: editor
+      value:
+        id: 5d2c8e9a-232a-43d2-9ab0-13a65311fd93
+        version: 364
+        type: page
+        properties:
+          "#ACE":
+          - - "‣"
+            - - - d
+                - type: date
+                  start_date: '2020-05-04'
+          8OeU:
+          - - "‣"
+            - - - p
+                - c890b3fe-95a9-4e61-bb2f-fd44bc404409
+          M>sq:
+          - - '13'
+          Mmqc:
+          - - 1st priority
+          "`NtP":
+          - - on Hold
+          b~0v:
+          - - dev project
+          ie:_:
+          - - "‣"
+            - - - p
+                - 7c411b43-4817-41c8-bf27-7a63037ccc18
+          - - ","
+          - - "‣"
+            - - - p
+                - eebb40a1-6c37-445a-968b-5e009a2cb55f
+          - - ","
+          - - "‣"
+            - - - p
+                - 0c0d69fc-ea8b-43ae-8c15-f4c7b51dd7b0
+          - - ","
+          - - "‣"
+            - - - p
+                - 1788d5f8-c2d7-4c50-9951-e4dae7f5ab65
+          - - ","
+          - - "‣"
+            - - - p
+                - 0f8701c2-20fe-436a-8d38-75fb5fb9af29
+          - - ","
+          - - "‣"
+            - - - p
+                - 28b21db3-f358-4f61-aa1d-fc334da17a0d
+          - - ","
+          - - "‣"
+            - - - p
+                - da32dbaa-20b3-4d88-a07a-4a182d6b6e25
+          - - ","
+          - - "‣"
+            - - - p
+                - 804ecccf-3bd3-4fcb-a201-3ac4f2ebf7d5
+          - - ","
+          - - "‣"
+            - - - p
+                - 58357c2d-8d09-46a5-8a1a-101e535239aa
+          - - ","
+          - - "‣"
+            - - - p
+                - 829dc987-d43e-4f50-86ef-0e9e3b1548ca
+          - - ","
+          - - "‣"
+            - - - p
+                - f3f63a09-f8bc-46f9-9b31-d2416f2a8f17
+          - - ","
+          - - "‣"
+            - - - p
+                - 92ec750e-8c91-4825-967d-72f6b48cd259
+          - - ","
+          - - "‣"
+            - - - p
+                - 93526c58-4e1e-4f9b-b373-d9ff1cdb3ef7
+          - - ","
+          - - "‣"
+            - - - p
+                - dfcfe5d6-37d8-4549-9be7-f7efb86f3518
+          - - ","
+          - - "‣"
+            - - - p
+                - 5339a080-78fe-4a6e-9433-c13f17165236
+          t6it:
+          - - '20'
+          title:
+          - - app-codearena (setup)
+        content:
+        - 7a0e5423-fef4-4746-8cff-6fb09e058334
+        - 09ccb0b1-569c-4ad6-abb0-7fcfcc997424
+        - f50990d0-ce19-45df-bfb3-e1c0a0808e33
+        - 0ad0f62e-b752-475c-9531-459a6b7a4140
+        - e48a1aae-5dfc-4bc4-95b9-26a54d135e6e
+        - d131c055-1c0b-4c36-b754-f6050d22850c
+        - 3f1aee72-cf7c-4859-abbb-5d63c370f0a7
+        - d02d9fe2-8eca-4e40-a5e2-2b3aa780644a
+        - 5f04ddef-a799-4b2f-bcee-452eb943ab72
+        - 440b346b-c9a6-4edb-b8e3-8f4e29b8e247
+        - a686a9a0-2adf-4c9e-bb5d-c6ed16c93b0c
+        - dc800884-af0c-4d75-9d2e-a0ffddada85f
+        - 0919835e-7360-437e-8d24-397d11a3fc25
+        - 331dbbc2-21d2-4429-8492-88433122c22a
+        - 3a422d92-fc54-4392-8800-3eab465b9f45
+        format:
+          page_cover: https://images.unsplash.com/photo-1521729839347-131a32f9abcb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb
+          block_locked: false
+          block_locked_by: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+          page_full_width: true
+          page_cover_position: 0.5
+        created_time: 1588286520000
+        last_edited_time: 1588756140000
+        parent_id: 080c4b06-021c-4fce-8948-2def329f1d80
+        parent_table: collection
+        alive: true
+        copied_from: e8d794da-978e-4edb-8179-b595981e522b
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+  space:
+    46ee3770-dcad-4c66-ae90-06d2cc2bf489:
+      role: editor
+      value:
+        id: 46ee3770-dcad-4c66-ae90-06d2cc2bf489
+        version: 546
+        name: X
+        permissions:
+        - role: editor
+          type: user_permission
+          user_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        beta_enabled: false
+        pages:
+        - 4d57b063-3c05-48c2-a1e0-355e313f76e5
+        - 5840db9b-6404-49d5-a20e-1c884025eeb6
+        - 5d27c5c4-663a-4928-b6b5-c85832198d85
+        - e9fe825e-2c2a-4d57-b59e-4f8f41805ef5
+        - 12b1062c-5863-4df3-9a1f-802fa3e8af90
+        - 0f4d1b63-5986-454d-b861-1856230da55e
+        - 4823fd98-dfaf-45bb-a0c1-a085de2fff61
+        - 18d32eaa-e219-41a6-a75d-aa8a616de1f8
+        - dbade99f-c44a-4968-9e4c-d3fc11747e7b
+        - 0a63894e-9a9a-4b80-adc9-45a5ccc70663
+        - 5d95d48c-cc14-4652-96a1-7bfc72e15fb7
+        - 74c6395d-8835-43e9-b339-150b9ca26b51
+        - 671ff16e-75d3-4158-a7d3-ad0499305207
+        - 46a7d132-d911-4ed3-b98a-a1bd24f74edd
+        - 2e12e3f9-4f7b-41a1-80a3-68c7113a7991
+        - db5fd845-220f-457d-a792-0511cef67e0e
+        created_by: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        created_time: 1577182500000
+        last_edited_by: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_time: 1588864620000
+        created_by_table: notion_user
+        created_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        last_edited_by_table: notion_user
+        last_edited_by_id: 8064619d-f1bc-4f27-8ef0-b07f9689af1d
+        shard_id: 783497
+        plan_type: personal
+        invite_link_code: 7ce9ba07c2d8c2f9dda9b3df43d92d0cb7b3df24
+        invite_link_enabled: false

@@ -9,7 +9,7 @@ export interface Embed extends EmptyBlock {
   properties?: {
     /**
      * This is a normal link.
-     * 
+     *
      * Use `display_source` in {@link BlockFormat} for an iframe.
      */
     source?: [[Util.PublicUrl]]
@@ -25,7 +25,7 @@ export interface Codepen extends EmptyBlock {
   properties?: {
     /**
      * This is a normal link.
-     * 
+     *
      * Use `display_source` in {@link BlockFormat} for an iframe.
      */
     source?: [[Util.PublicUrl]]

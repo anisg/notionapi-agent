@@ -1,13 +1,13 @@
 import { Util } from "./"
 
-/** 
+/**
  * TODO: Some collection-only structures not included.
- * 
- * This is what Notion uses to represent a rich text string. 
- * 
- * For example, an HTML string `<strong><em>Hello</em></strong>World` 
+ *
+ * This is what Notion uses to represent a rich text string.
+ *
+ * For example, an HTML string `<strong><em>Hello</em></strong>World`
  * can be translated into
- * 
+ *
  * ```javascript
  * [
  *   ["Hello", [["b"], ["i"]]], // A SemanticString
@@ -16,19 +16,20 @@ import { Util } from "./"
  * ```
  */
 export type SemanticString =
-  SemanticString.BasicString | SemanticString.InlineMentionUser
-  | SemanticString.InlineMentionPage | SemanticString.InlineMentionDate
+  | SemanticString.BasicString
+  | SemanticString.InlineMentionUser
+  | SemanticString.InlineMentionPage
+  | SemanticString.InlineMentionDate
 
 export namespace SemanticString {
-
   /**
-   * A structure to represent a reminder alarm before the start of 
+   * A structure to represent a reminder alarm before the start of
    * {@link DateTime}.
-   * 
-   * e.g. `value` is `30`, `unit` is `minute` 
+   *
+   * e.g. `value` is `30`, `unit` is `minute`
    * -> 30 minutes before.
-   * 
-   * e.g. `value` is `1`, `unit` is `day`, `time` is `09:00` 
+   *
+   * e.g. `value` is `1`, `unit` is `day`, `time` is `09:00`
    * -> 1 day before at 9 a.m.
    */
   export type Reminder = {
@@ -52,8 +53,12 @@ export namespace SemanticString {
     /** e.g. "15:00" */
     end_time?: string
     reminder?: Reminder
-    date_format: "relative" | "MM/DD/YYYY" | "MMM DD, YYYY"
-    | "DD/MM/YYYY" | "YYYY/MM/DD"
+    date_format:
+      | "relative"
+      | "MM/DD/YYYY"
+      | "MMM DD, YYYY"
+      | "DD/MM/YYYY"
+      | "YYYY/MM/DD"
     /** 12h ("h:mm A") or 24h ("H:mm") */
     time_format?: "h:mm A" | "H:mm"
     time_zone?: Util.TimeZone
@@ -70,12 +75,18 @@ export namespace SemanticString {
   export type Commented = ["m"]
 
   export type BasicStringFormatting =
-    Bold | Italic | Strike | Link | InlineCode | Colored | Commented
+    | Bold
+    | Italic
+    | Strike
+    | Link
+    | InlineCode
+    | Colored
+    | Commented
 
   export type BasicString = [string, BasicStringFormatting[]?]
 
   /**
-   * Mention an user by ID.  
+   * Mention an user by ID.
    */
   export type InlineMentionUser = ["‣", [["u", Util.UUID]]]
 
@@ -88,5 +99,4 @@ export namespace SemanticString {
    * Mention a date only or a date with reminder.
    */
   export type InlineMentionDate = ["‣", [["d", DateTime]]]
-
 }

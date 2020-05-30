@@ -1,19 +1,23 @@
 import { Util } from "../../"
 import { Map } from "./Map"
 import {
-  BlockRecord, CollectionRecord, SpaceRecord, NotionUserRecord,
-  ActivityRecord, FollowRecord, SlackIntegrationRecord
+  BlockRecord,
+  CollectionRecord,
+  SpaceRecord,
+  NotionUserRecord,
+  ActivityRecord,
+  FollowRecord,
+  SlackIntegrationRecord,
 } from "./Record"
 
 export namespace GetActivityLog {
-
   interface Request {
     spaceId: Util.UUID
     /** Id of a page block or ... ? */
     navigableBlockId: Util.UUID
     limit: number
   }
-  
+
   interface Response {
     activityIds: Util.UUID[]
     recordMap: {
@@ -26,5 +30,4 @@ export namespace GetActivityLog {
       slack_integration: Map<SlackIntegrationRecord>
     }
   }
-
 }

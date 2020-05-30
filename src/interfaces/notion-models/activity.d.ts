@@ -3,8 +3,11 @@ import { Block } from "./block"
 import { CollectionSchema, ColumnProperty } from "./collection"
 
 export type EditType =
-  "block-created" | "block-changed" | "collection-view-created"
-  | "collection-view-changed" | "collection-property-deleted"
+  | "block-created"
+  | "block-changed"
+  | "collection-view-created"
+  | "collection-view-changed"
+  | "collection-property-deleted"
 
 export interface EditAuthor {
   /** Usually "notion_user". */
@@ -13,7 +16,7 @@ export interface EditAuthor {
 }
 
 /**
- * If the edited block is a page in a collection, it has additional 
+ * If the edited block is a page in a collection, it has additional
  * block_schema and collection_id property
  */
 export interface AbstractEdit {
@@ -52,15 +55,18 @@ export interface BlockChangedEdit extends AbstractEdit {
 }
 
 export type ActivityType =
-  "block-edited" | "collection-edited" | "collection-view-edited"
-  | "collection-row-created" | "collection-property-edited"
+  | "block-edited"
+  | "collection-edited"
+  | "collection-view-edited"
+  | "collection-row-created"
+  | "collection-property-edited"
 
 export type Edit = BlockCreatedEdit | BlockChangedEdit
 
 /**
  * TODO: Icomplete or may be incorrect.
- * 
- * If the activity is collection-related, it has additional 
+ *
+ * If the activity is collection-related, it has additional
  * collection_id property, also all its edits are collection-related.
  */
 export interface Activity {

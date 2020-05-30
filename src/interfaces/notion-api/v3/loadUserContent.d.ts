@@ -1,14 +1,16 @@
 import { Map } from "./Map"
 import {
   BlockRecord,
-  NotionUserRecord, UserRootRecord, UserSettingsRecord,
-  SpaceRecord, SpaceViewRecord
+  NotionUserRecord,
+  UserRootRecord,
+  UserSettingsRecord,
+  SpaceRecord,
+  SpaceViewRecord,
 } from "./Record"
 
 export namespace LoadUserContent {
-
   /** An empty object. */
-  interface Request { }
+  interface Request {}
 
   interface Response {
     recordMap: {
@@ -20,5 +22,4 @@ export namespace LoadUserContent {
       space_view: Map<SpaceViewRecord>
     }
   }
-
 }

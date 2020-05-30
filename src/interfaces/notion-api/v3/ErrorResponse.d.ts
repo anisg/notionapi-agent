@@ -2,9 +2,9 @@ import { Util } from "../../"
 
 /**
  * The error object Notion responds when an API request is invalid.
- * 
+ *
  * Example :
- * 
+ *
  * ```
  * {
  *   "errorId": "19656943-xxxx-xxxx-xxxx-748b998ef017",

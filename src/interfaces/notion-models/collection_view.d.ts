@@ -12,12 +12,12 @@ export interface CollectionView {
   type: CollectionView.Type
   /** The name of a view. */
   name: string
-  /** 
-   * Settings for aggregation, filtering, and sorting. It may not exist 
+  /**
+   * Settings for aggregation, filtering, and sorting. It may not exist
    * in newer collection views.
    */
   query?: Query
-  /** 
+  /**
    * The new version of `query`.
    */
   query2: Query2
@@ -32,17 +32,15 @@ export interface CollectionView {
   parent_table: Util.Table
   alive: boolean
   /**
-   * Use queryCollection() with an empty query to get pages 
+   * Use queryCollection() with an empty query to get pages
    * in a collection. `page_sort` does not include all pages.
    */
   page_sort: Util.UUID[]
 }
 
 export namespace CollectionView {
-
   /** Types of database views Notion has. */
-  export type Type =
-    "table" | "board" | "calendar" | "list" | "gallery"
+  export type Type = "table" | "board" | "calendar" | "list" | "gallery"
 
   export interface Format {
     /** Layout settings for table columns. */
@@ -68,5 +66,4 @@ export namespace CollectionView {
     visible: boolean
     property: Collection.ColumnID
   }
-
 }

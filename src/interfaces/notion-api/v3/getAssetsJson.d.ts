@@ -1,5 +1,4 @@
 export namespace GetAssetsJson {
-
   interface AssetFile {
     hash: string
     /** Path to the asset. */
@@ -9,7 +8,7 @@ export namespace GetAssetsJson {
   }
 
   /** An empty object. */
-  interface Request { }
+  interface Request {}
 
   interface Response {
     /** Website entry path. */
@@ -23,5 +22,4 @@ export namespace GetAssetsJson {
     /** Current version of Notion. */
     version: string
   }
-
 }

@@ -4,16 +4,17 @@ import * as DatabaseBlock from "./block/database"
 import * as EmbedBlock from "./block/embed"
 import * as MediaBlock from "./block/media"
 
-/** 
+/**
  * All types of blocks.
  */
 export type Block =
-  AdvancedBlock.AdvancedBlockUnion | BasicBlock.BasicBlockUnion |
-  DatabaseBlock.DatabaseBlockUnion | EmbedBlock.EmbedBlockUnion |
-  MediaBlock.MediaBlockUnion
+  | AdvancedBlock.AdvancedBlockUnion
+  | BasicBlock.BasicBlockUnion
+  | DatabaseBlock.DatabaseBlockUnion
+  | EmbedBlock.EmbedBlockUnion
+  | MediaBlock.MediaBlockUnion
 
 export namespace Block {
-
   type Breadcrumb = AdvancedBlock.Breadcrumb
   type Equation = AdvancedBlock.Equation
   type Factory = AdvancedBlock.Factory
@@ -48,5 +49,4 @@ export namespace Block {
   type File = MediaBlock.File
   type Image = MediaBlock.Image
   type Video = MediaBlock.Video
-
 }

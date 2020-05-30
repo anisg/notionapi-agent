@@ -2,12 +2,13 @@ import { Util } from "../../"
 import { Query2 } from "../../notion-models/collection-view/query"
 import { Map } from "./Map"
 import {
-  BlockRecord, CollectionRecord, CollectionViewRecord,
-  SpaceRecord
+  BlockRecord,
+  CollectionRecord,
+  CollectionViewRecord,
+  SpaceRecord,
 } from "./Record"
 
 export namespace QueryCollection {
-
   interface AggregationResult {
     /** {@link Aggregate.id}. */
     id: Util.UUID
@@ -43,5 +44,4 @@ export namespace QueryCollection {
       space: Map<SpaceRecord>
     }
   }
-
 }

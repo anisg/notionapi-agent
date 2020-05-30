@@ -1,12 +1,14 @@
 import { Util } from "../../"
 import { Map } from "./Map"
 import {
-  BlockRecord, CollectionRecord, CollectionViewRecord,
-  NotionUserRecord, SpaceRecord
+  BlockRecord,
+  CollectionRecord,
+  CollectionViewRecord,
+  NotionUserRecord,
+  SpaceRecord,
 } from "./Record"
 
 export namespace LoadPageChunk {
-
   interface CursorItem {
     table: Util.Table
     id: Util.UUID
@@ -21,7 +23,7 @@ export namespace LoadPageChunk {
     pageId: Util.UUID
     limit: number
     /**
-     * Set `{ stack: [] }` for the first request, 
+     * Set `{ stack: [] }` for the first request,
      * use {@link LoadPageChunkResponse.cursor} for the next request.
      */
     cursor: Cursor
@@ -41,5 +43,4 @@ export namespace LoadPageChunk {
       space: Map<SpaceRecord>
     }
   }
-
 }

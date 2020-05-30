@@ -7,15 +7,21 @@ import { LoadPageChunk } from "./v3/loadPageChunk"
 import { LoadUserContent } from "./v3/loadUserContent"
 import { QueryCollection } from "./v3/queryCollection"
 import { SubmitTransaction } from "./v3/submitTransaction"
+import { Search } from "./v3/search"
 
 export namespace API {
-
   export {
-    GetActivityLog, GetAssetsJson, GetRecordValues, GetSnapshotsList,
-    GetUserSharedPages, LoadPageChunk, LoadUserContent, QueryCollection,
-    SubmitTransaction
+    GetActivityLog,
+    GetAssetsJson,
+    GetRecordValues,
+    GetSnapshotsList,
+    GetUserSharedPages,
+    LoadPageChunk,
+    LoadUserContent,
+    QueryCollection,
+    SubmitTransaction,
+    Search,
   }
 
   export { ErrorResponse } from "./v3/ErrorResponse"
-
 }

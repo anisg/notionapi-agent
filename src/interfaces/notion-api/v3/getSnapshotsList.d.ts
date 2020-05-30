@@ -2,7 +2,6 @@ import { Util } from "../../"
 import { EditAuthor } from "../../notion-models/activity"
 
 export namespace GetSnapshotsList {
-
   /** TODO: Incomplete, may be incorrect. */
   interface Snapshot {
     id: Util.UUID
@@ -26,5 +25,4 @@ export namespace GetSnapshotsList {
   interface Response {
     snapshots: Snapshot[]
   }
-
 }

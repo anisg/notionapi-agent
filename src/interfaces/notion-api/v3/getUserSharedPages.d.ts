@@ -3,7 +3,6 @@ import { Map } from "./Map"
 import { BlockRecord, SpaceRecord } from "./Record"
 
 export namespace GetUserSharedPages {
-
   interface SharedPage {
     id: Util.UUID
     spaceId: Util.UUID
@@ -20,5 +19,4 @@ export namespace GetUserSharedPages {
       space: Map<SpaceRecord>
     }
   }
-
 }

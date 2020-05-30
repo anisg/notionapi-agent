@@ -8,15 +8,15 @@ import { ColumnID } from "../collection"
 export interface Page extends EmptyBlock {
   type: "page"
   /**
-   * In a database, every record is a page. Properties set in a database 
+   * In a database, every record is a page. Properties set in a database
    * are stored here.
-   * Content of all types of property can be expressed as 
+   * Content of all types of property can be expressed as
    * a {@link SemanticString} array. Some interesting types are listed below:
-   * 
-   * Relation — They use {@link InlineMentionPage} to represent related  
-   * pages, so for example, if a page is related to another 3 pages, 
-   * it looks like 
-   * 
+   *
+   * Relation — They use {@link InlineMentionPage} to represent related
+   * pages, so for example, if a page is related to another 3 pages,
+   * it looks like
+   *
    * ```
    * [InlineMentionPage, [","], InlineMentionPage, [","], InlineMentionPage]
    * ```
@@ -25,7 +25,7 @@ export interface Page extends EmptyBlock {
     [key in ColumnID]: SemanticString[]
   }
   permissions?: Permission[]
-  /** 
+  /**
    * Defined if the user upload images for page icon and page cover.
    */
   file_ids?: Util.UUID[]
@@ -136,9 +136,9 @@ export interface Callout extends EmptyBlock {
 
 /**
  * Column List block. Not editable, can have children.
- * 
+ *
  * This is used to wrap blocks that should be displayed in the same row.
- * 
+ *
  * Children of this block must be {@link Column}.
  */
 export interface ColumnList extends EmptyBlock {
@@ -147,7 +147,7 @@ export interface ColumnList extends EmptyBlock {
 
 /**
  * Column block. Not editable, can have children.
- * 
+ *
  * Parent of this block must be {@link ColumnList}.
  */
 export interface Column extends EmptyBlock {
@@ -162,6 +162,17 @@ export interface Divider extends EmptyBlock {
 }
 
 export type BasicBlockUnion =
-  Page | Text | BulletedList | NumberedList | ToDo | Toggle |
-  Header | SubHeader | SubSubHeader | Quote | Callout |
-  ColumnList | Column | Divider
+  | Page
+  | Text
+  | BulletedList
+  | NumberedList
+  | ToDo
+  | Toggle
+  | Header
+  | SubHeader
+  | SubSubHeader
+  | Quote
+  | Callout
+  | ColumnList
+  | Column
+  | Divider

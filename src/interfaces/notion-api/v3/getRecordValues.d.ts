@@ -2,7 +2,6 @@ import { Util } from "../../"
 import { AnyRecord } from "./Record"
 
 export namespace GetRecordValues {
-
   interface RecordRequest {
     id: Util.UUID
     table: Util.Table
@@ -15,5 +14,4 @@ export namespace GetRecordValues {
   interface Response {
     results: AnyRecord[]
   }
-
 }
