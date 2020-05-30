@@ -1,6 +1,5 @@
 /** Import libraries. */
 //import { makeHTTPRequest, makeHTTPSRequest } from "@dnpr/make-request"
-import { URL } from 'url';
 import fetch from 'node-fetch';
 /** Import other sripts. */
 import { log } from "./log"
