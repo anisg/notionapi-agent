@@ -1,26 +1,26 @@
 /** Import libraries. */
-const URL = (typeof window !== "undefined" && window.URL) ?
-  window.URL : require("url").URL
-import { makeHTTPRequest, makeHTTPSRequest } from "@dnpr/make-request"
-
+//import { makeHTTPRequest, makeHTTPSRequest } from "@dnpr/make-request"
+import { URL } from 'url';
+import fetch from 'node-fetch';
 /** Import other sripts. */
 import { log } from "./log"
 import { RequestError } from "./error/RequestError"
+
+type Await<T> = T extends {
+  then(onfulfilled?: (value: infer U) => unknown): unknown;
+} ? U : T;
 
 /**
  * @category Library Internal
  */
 function post(url: string) {
-
   const myURL = new URL(url)
 
   if (myURL.protocol !== "http:" && myURL.protocol !== "https:") {
     throw new RequestError(`Unsupported protocol: ${myURL.protocol}`)
   }
 
-  const port = myURL.port
-    ? myURL.port : (myURL.protocol === "http:")
-      ? 80 : 443
+  const port = myURL.port ? myURL.port : myURL.protocol === "http:" ? 80 : 443
 
   const agentOptions = {
     hostname: myURL.hostname,
@@ -28,7 +28,7 @@ function post(url: string) {
     port: port,
     path: myURL.pathname + myURL.search,
     method: "POST",
-    headers: {}
+    headers: {},
   }
 
   return {
@@ -37,10 +37,10 @@ function post(url: string) {
       return this
     },
     sendAsJson: async function (body?: any) {
-
       log.debug(
         `http-util.ts: ${agentOptions.method} ${agentOptions.hostname} \
-${agentOptions.port} ${agentOptions.path}`)
+${agentOptions.port} ${agentOptions.path}`
+      )
 
       /** @dnpr/make-request only support these two. */
       this.setHeader("accept-encoding", "gzip, deflate")
@@ -54,27 +54,27 @@ ${agentOptions.port} ${agentOptions.path}`)
         throw error
       }
 
-      let response
-
+      let response:Await<ReturnType<typeof fetch>>
       try {
-        if (myURL.protocol === "http:") {
-          response = await makeHTTPRequest(agentOptions, payload)
-        } else {
-          response = await makeHTTPSRequest(agentOptions, payload)
-        }
+        response = await fetch(myURL.toString(),{
+          method:'post',
+          headers:agentOptions.headers,
+          body: payload as any,
+        });
+        /*if (response.status < 200 || response.status > 299){
+          throw response.statusText
+        }*/
       } catch (error) {
         throw error
       }
 
       try {
-        return JSON.parse(response.responseBuffer)
+        return await response.json()
       } catch (error) {
         throw error
       }
-
-    } // send
+    }, // send
   } // return
-
 } // post
 
 export { post }
